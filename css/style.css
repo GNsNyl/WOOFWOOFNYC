@@ -1,0 +1,89 @@
+body{ background-color: #000000;}
+
+/*HEADER______________________________________________________________________________________________________________*/
+.header{ padding-top: 100px; padding-bottom: 50px}
+.header, p, .title-desc, .title {color: white;}
+.header {font-size: 16px; font-family: 'Roboto Light', sans-serif;}
+
+/*TITLE______________________________________________________________________________________________________________*/
+.title, .title-desc {font-size: 18px; font-family: 'Roboto Light', sans-serif; letter-spacing: 1px;}
+.title-desc, .title-desc-label, .header {text-align: end;}
+.title-label, .title-desc-label {color:grey; font-size: 10px; font-family: 'Roboto Light', sans-serif; letter-spacing: 1px; text-transform: uppercase;}
+
+/*PARAGRAPH______________________________________________________________________________________________________________*/
+.section{ padding-left: 100px; padding-right: 100px;}
+.paragraph, .paragraph-desc{ padding-top: 100px; padding-bottom: 100px;}
+.paragraph-desc{text-align: end;}
+p{ color:white; font-size: 15px; line-height: 30px; letter-spacing: 1px; font-family: 'Roboto Light', sans-serif;}
+label, .tick{ color:white; font-size: 12px; line-height: 30px; letter-spacing: 1px; font-family: 'Roboto Light', sans-serif;}
+
+
+/*AXIS______________________________________________________________________________________________________________*/
+.axis line{ stroke: white; stroke-width: 0.75px; }
+.axis path{ stroke: white; stroke-width: 0.75px; }
+.axis text{ fill: white; color:white; font-size: 12px; line-height: 30px; letter-spacing: 1px; font-family: 'Roboto Light', sans-serif;}
+
+
+/*TEXT______________________________________________________________________________________________________________*/
+.content{ padding:50px 300px 50px 300px;}
+h1{font-size: 30px; color: white; font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px; text-transform: uppercase; padding-top: 25px; padding-bottom: 25px;}
+.text-col { column-width: 33vw;}
+
+/*BORDER______________________________________________________________________________________________________________*/
+hr.solid {border-top: 0.5px solid rgb(255, 255, 255);}
+
+/*LINK______________________________________________________________________________________________________________*/
+a { color: #ffffff; text-decoration: none;}
+a:link { text-decoration: none;}
+a:visited { text-decoration: none;}
+a:active { text-decoration: none;}
+a:hover { color: #ffffff; text-decoration: underline; cursor:pointer;}
+
+/*IMG______________________________________________________________________________________________________________*/
+img{object-fit: scale-down;}
+
+/*INDEX______________________________________________________________________________________________________________*/
+.hover figure img { -webkit-filter: grayscale(100%) blur(3px); filter: grayscale(100%) blur(3px); -webkit-transition: .3s ease-in-out; transition: .3s ease-in-out;}
+.hover figure:hover img { -webkit-filter: grayscale(0) blur(0); filter: grayscale(0) blur(0);}
+
+/*INPUT______________________________________________________________________________________________________________*/
+textarea { width: 100%; border: none; padding-top: 15px; padding-bottom: 35px; padding-left: 15px;
+    border-bottom: 0.1px solid rgba(255, 255, 255, 0.8); background-color: rgba(255, 255, 255, 0.05); color: white;
+    font-size: 15px; line-height: 30px; letter-spacing: 1px; font-family: 'Roboto Light', sans-serif;}
+
+/*BUTTON______________________________________________________________________________________________________________*/
+button, .option-input { background-color: transparent; border: none; color: white; padding-top: 25px;
+    font-size: 15px; line-height: 30px; letter-spacing: 1px; font-family: 'Roboto Light', sans-serif;}
+button:hover{ text-decoration: underline; cursor:pointer;}
+
+/*TOOTLTIP______________________________________________________________________________________________________________*/
+.rect_tooltip_text{ font-size: 15px; line-height: 30px; letter-spacing: 1px; font-family: 'Roboto Light', sans-serif;}
+.rect_tooltip_letter{ font-size: 50px; line-height: 30px; letter-spacing: 1px; font-family: 'Roboto Bold', sans-serif;}
+
+
+
+/*RADIO______________________________________________________________________________________________________________*/
+.container{ padding-top:50px; padding-bottom: 50px;
+    font-size: 30px; letter-spacing: 1px; font-family: 'Roboto Light', sans-serif; color: white;
+    display: flex; justify-content: center; font-size: 12px; alignment: center; position: relative;}
+.option-input { -webkit-appearance: none; -moz-appearance: none; -ms-appearance: none; -o-appearance: none; appearance: none; position: relative; outline: none;
+    top: 10px; right: 10px; bottom: 10px; left: 10px; height: 30px; width: 30px;position: center;
+    transition: all 0.15s ease-out 0s;
+    border-style: solid; border-color: #ffffff; color: #fff; cursor: pointer; display: inline-block; margin-right: 15px;}
+.option-input:checked { border-style: dotted; }
+.option-input.radio { border-radius: 100%;}
+.option-input.radio::after { border-radius: 100%;}
+
+/*LANDING______________________________________________________________________________________________________________*/
+*{ color: #595959;}
+#text1, #text2{ color: white;}
+.viz0_1{ overflow-x: hidden; font-family: 'Roboto', sans-serif;}
+#filters{ position: absolute;}
+.open-page{ top:-20vh; transition: 1s; margin:0px;}
+#fur-container{ z-index: -10;}
+#text_container { z-index: 100; position: absolute; top: 70%; margin: auto; width: 100%; color: white; filter: url(#threshold) blur(0.6px); }
+#text1, #text2 { z-index: 1000; margin: auto; position: fixed; width: 100%; display: inline-block;
+    font-family: 'Roboto', sans-serif; font-size: 60pt; text-align: center; user-select: none;}
+
+
