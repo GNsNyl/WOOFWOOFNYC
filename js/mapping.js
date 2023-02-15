@@ -4153,7 +4153,7 @@ var gradient = defs.append("linearGradient")
     .attr("stop-opacity", 1);
 // console.log(humanDog[1])
 
-d3.json("data/nyc-zip-code-tabulation-areas-polygons.geojson", function(json) {
+d3.json("../data/nyc-zip-code-tabulation-areas-polygons.geojson", function(json) {
 
     // width and height
     // var w = window.innerWidth;
