@@ -86,4 +86,30 @@ button:hover{ text-decoration: underline; cursor:pointer;}
 #text1, #text2 { z-index: 1000; margin: auto; position: fixed; width: 100%; display: inline-block;
     font-family: 'Roboto', sans-serif; font-size: 60pt; text-align: center; user-select: none;}
 
+/*MAPPING______________________________________________________________________________________________________________*/
+table, th, td {
+    /*border: 1px solid black;*/
+    border-collapse: collapse;
+    border-spacing: 0px;
+    line-height: 15px; letter-spacing: 9px;
+}
+table p{
+    margin-bottom:0;line-height: 30px;
+    margin-bottom:0;line-height: 30px;
+
+}
+th, td {
+    padding-top: 0px;
+    line-height: 30px;
+    /*padding-bottom: 20px;*/
+    /*padding-left: 30px;*/
+    /*padding-right: 40px;*/
+}
+#tool p{
+    font-size: 12px; line-height: 15px; letter-spacing: 1px;
+}
+#tool-fixed p{
+    font-size: 12px; line-height: 15px; letter-spacing: 1px;
+}
+/*cursor______________________________________________________________________________________________________________*/
 

@@ -4049,119 +4049,2647 @@ const humanDog=[
         "counts": 89
     }
 ];
+const zipBoroughNeiborhood=[
+    {
+        "": 0,
+        "ZipCode": 1,
+        "counts": 3,
+        "ACRES": 1258.525,
+        "Borough": "",
+        "Neighborhood": ""
+    },
+    {
+        "": 1,
+        "ZipCode": 10001,
+        "counts": 7,
+        "ACRES": 14.117,
+        "Borough": "Manhattan",
+        "Neighborhood": "Chelsea and Clinton"
+    },
+    {
+        "": 2,
+        "ZipCode": 10002,
+        "counts": 28,
+        "ACRES": 90.192,
+        "Borough": "Manhattan",
+        "Neighborhood": "Lower East Side"
+    },
+    {
+        "": 3,
+        "ZipCode": 10003,
+        "counts": 12,
+        "ACRES": 13.488,
+        "Borough": "Manhattan",
+        "Neighborhood": "Lower East Side"
+    },
+    {
+        "": 4,
+        "ZipCode": 10004,
+        "counts": 3,
+        "ACRES": 23.624,
+        "Borough": "Manhattan",
+        "Neighborhood": "Lower Manhattan"
+    },
+    {
+        "": 5,
+        "ZipCode": 10005,
+        "counts": 1,
+        "ACRES": 0.117,
+        "Borough": "Manhattan",
+        "Neighborhood": "Lower Manhattan"
+    },
+    {
+        "": 6,
+        "ZipCode": 10007,
+        "counts": 4,
+        "ACRES": 39.205,
+        "Borough": "Manhattan",
+        "Neighborhood": "Lower Manhattan"
+    },
+    {
+        "": 7,
+        "ZipCode": 10009,
+        "counts": 42,
+        "ACRES": 20.813,
+        "Borough": "Manhattan",
+        "Neighborhood": "Lower East Side"
+    },
+    {
+        "": 8,
+        "ZipCode": 10010,
+        "counts": 4,
+        "ACRES": 9.821,
+        "Borough": "Manhattan",
+        "Neighborhood": "Gramercy Park and Murray Hill"
+    },
+    {
+        "": 9,
+        "ZipCode": 10011,
+        "counts": 6,
+        "ACRES": 11.736,
+        "Borough": "Manhattan",
+        "Neighborhood": "Chelsea and Clinton"
+    },
+    {
+        "": 10,
+        "ZipCode": 10011,
+        "counts": 1,
+        "ACRES": 6.73,
+        "Borough": "Manhattan",
+        "Neighborhood": "Chelsea and Clinton"
+    },
+    {
+        "": 11,
+        "ZipCode": 10012,
+        "counts": 11,
+        "ACRES": 3.453,
+        "Borough": "Manhattan",
+        "Neighborhood": "Greenwich Village and Soho"
+    },
+    {
+        "": 12,
+        "ZipCode": 10013,
+        "counts": 9,
+        "ACRES": 8.429,
+        "Borough": "Manhattan",
+        "Neighborhood": "Greenwich Village and Soho"
+    },
+    {
+        "": 13,
+        "ZipCode": 10013,
+        "counts": 2,
+        "ACRES": 28.584,
+        "Borough": "Manhattan",
+        "Neighborhood": "Greenwich Village and Soho"
+    },
+    {
+        "": 14,
+        "ZipCode": 10014,
+        "counts": 14,
+        "ACRES": 4.885,
+        "Borough": "Manhattan",
+        "Neighborhood": "Greenwich Village and Soho"
+    },
+    {
+        "": 15,
+        "ZipCode": 10014,
+        "counts": 1,
+        "ACRES": 6.73,
+        "Borough": "Manhattan",
+        "Neighborhood": "Greenwich Village and Soho"
+    },
+    {
+        "": 16,
+        "ZipCode": 10016,
+        "counts": 5,
+        "ACRES": 7.083,
+        "Borough": "Manhattan",
+        "Neighborhood": "Gramercy Park and Murray Hill"
+    },
+    {
+        "": 17,
+        "ZipCode": 10017,
+        "counts": 8,
+        "ACRES": 4.181,
+        "Borough": "Manhattan",
+        "Neighborhood": "Gramercy Park and Murray Hill"
+    },
+    {
+        "": 18,
+        "ZipCode": 10018,
+        "counts": 1,
+        "ACRES": 2.148,
+        "Borough": "Manhattan",
+        "Neighborhood": "Chelsea and Clinton"
+    },
+    {
+        "": 19,
+        "ZipCode": 10018,
+        "counts": 1,
+        "ACRES": 9.603,
+        "Borough": "Manhattan",
+        "Neighborhood": "Chelsea and Clinton"
+    },
+    {
+        "": 20,
+        "ZipCode": 10019,
+        "counts": 5,
+        "ACRES": 73.82,
+        "Borough": "Manhattan",
+        "Neighborhood": "Chelsea and Clinton"
+    },
+    {
+        "": 21,
+        "ZipCode": 10021,
+        "counts": 5,
+        "ACRES": 33.16836646,
+        "Borough": "Manhattan",
+        "Neighborhood": "Upper East Side"
+    },
+    {
+        "": 22,
+        "ZipCode": 10022,
+        "counts": 8,
+        "ACRES": 5.842,
+        "Borough": "Manhattan",
+        "Neighborhood": "Gramercy Park and Murray Hill"
+    },
+    {
+        "": 23,
+        "ZipCode": 10022,
+        "counts": 2,
+        "ACRES": 4.853000000000001,
+        "Borough": "Manhattan",
+        "Neighborhood": "Gramercy Park and Murray Hill"
+    },
+    {
+        "": 24,
+        "ZipCode": 10023,
+        "counts": 13,
+        "ACRES": 1107.806,
+        "Borough": "Manhattan",
+        "Neighborhood": "Upper West Side"
+    },
+    {
+        "": 25,
+        "ZipCode": 10023,
+        "counts": 1,
+        "ACRES": 66.693,
+        "Borough": "Manhattan",
+        "Neighborhood": "Upper West Side"
+    },
+    {
+        "": 26,
+        "ZipCode": 10024,
+        "counts": 7,
+        "ACRES": 25.337,
+        "Borough": "Manhattan",
+        "Neighborhood": "Upper West Side"
+    },
+    {
+        "": 27,
+        "ZipCode": 10024,
+        "counts": 3,
+        "ACRES": 1098.783,
+        "Borough": "Manhattan",
+        "Neighborhood": "Upper West Side"
+    },
+    {
+        "": 28,
+        "ZipCode": 10025,
+        "counts": 12,
+        "ACRES": 9.099,
+        "Borough": "Manhattan",
+        "Neighborhood": "Upper West Side"
+    },
+    {
+        "": 29,
+        "ZipCode": 10025,
+        "counts": 4,
+        "ACRES": 1100.361,
+        "Borough": "Manhattan",
+        "Neighborhood": "Upper West Side"
+    },
+    {
+        "": 30,
+        "ZipCode": 10026,
+        "counts": 11,
+        "ACRES": 33.078,
+        "Borough": "Manhattan",
+        "Neighborhood": "Central Harlem"
+    },
+    {
+        "": 31,
+        "ZipCode": 10027,
+        "counts": 24,
+        "ACRES": 64.064,
+        "Borough": "Manhattan",
+        "Neighborhood": "Central Harlem"
+    },
+    {
+        "": 32,
+        "ZipCode": 10027,
+        "counts": 3,
+        "ACRES": 7.691,
+        "Borough": "Manhattan",
+        "Neighborhood": "Central Harlem"
+    },
+    {
+        "": 33,
+        "ZipCode": 10028,
+        "counts": 2,
+        "ACRES": 23.533,
+        "Borough": "Manhattan",
+        "Neighborhood": "Upper East Side"
+    },
+    {
+        "": 34,
+        "ZipCode": 10028,
+        "counts": 2,
+        "ACRES": 7.712,
+        "Borough": "Manhattan",
+        "Neighborhood": "Upper East Side"
+    },
+    {
+        "": 35,
+        "ZipCode": 10029,
+        "counts": 23,
+        "ACRES": 29.907,
+        "Borough": "Manhattan",
+        "Neighborhood": "East Harlem"
+    },
+    {
+        "": 36,
+        "ZipCode": 10029,
+        "counts": 2,
+        "ACRES": 13.218,
+        "Borough": "Manhattan",
+        "Neighborhood": "East Harlem"
+    },
+    {
+        "": 37,
+        "ZipCode": 10030,
+        "counts": 9,
+        "ACRES": 2.8400000000000003,
+        "Borough": "Manhattan",
+        "Neighborhood": "Central Harlem"
+    },
+    {
+        "": 38,
+        "ZipCode": 10030,
+        "counts": 1,
+        "ACRES": 1.679,
+        "Borough": "Manhattan",
+        "Neighborhood": "Central Harlem"
+    },
+    {
+        "": 39,
+        "ZipCode": 10031,
+        "counts": 13,
+        "ACRES": 32.634,
+        "Borough": "Manhattan",
+        "Neighborhood": "Inwood and Washington Heights"
+    },
+    {
+        "": 40,
+        "ZipCode": 10031,
+        "counts": 2,
+        "ACRES": 36.09,
+        "Borough": "Manhattan",
+        "Neighborhood": "Inwood and Washington Heights"
+    },
+    {
+        "": 41,
+        "ZipCode": 10032,
+        "counts": 15,
+        "ACRES": 369.131,
+        "Borough": "Manhattan",
+        "Neighborhood": "Inwood and Washington Heights"
+    },
+    {
+        "": 42,
+        "ZipCode": 10032,
+        "counts": 2,
+        "ACRES": 25.291,
+        "Borough": "Manhattan",
+        "Neighborhood": "Inwood and Washington Heights"
+    },
+    {
+        "": 43,
+        "ZipCode": 10033,
+        "counts": 6,
+        "ACRES": 208.679,
+        "Borough": "Manhattan",
+        "Neighborhood": "Inwood and Washington Heights"
+    },
+    {
+        "": 44,
+        "ZipCode": 10033,
+        "counts": 3,
+        "ACRES": 360.9,
+        "Borough": "Manhattan",
+        "Neighborhood": "Inwood and Washington Heights"
+    },
+    {
+        "": 45,
+        "ZipCode": 10034,
+        "counts": 4,
+        "ACRES": 21.833,
+        "Borough": "Manhattan",
+        "Neighborhood": "Inwood and Washington Heights"
+    },
+    {
+        "": 46,
+        "ZipCode": 10034,
+        "counts": 3,
+        "ACRES": 427.198,
+        "Borough": "Manhattan",
+        "Neighborhood": "Inwood and Washington Heights"
+    },
+    {
+        "": 47,
+        "ZipCode": 10035,
+        "counts": 30,
+        "ACRES": 449.8929999999999,
+        "Borough": "Manhattan",
+        "Neighborhood": "East Harlem"
+    },
+    {
+        "": 48,
+        "ZipCode": 10035,
+        "counts": 1,
+        "ACRES": 8.595,
+        "Borough": "Manhattan",
+        "Neighborhood": "East Harlem"
+    },
+    {
+        "": 49,
+        "ZipCode": 10036,
+        "counts": 6,
+        "ACRES": 2.087,
+        "Borough": "Manhattan",
+        "Neighborhood": "Chelsea and Clinton"
+    },
+    {
+        "": 50,
+        "ZipCode": 10037,
+        "counts": 9,
+        "ACRES": 11.086,
+        "Borough": "Manhattan",
+        "Neighborhood": "Central Harlem"
+    },
+    {
+        "": 51,
+        "ZipCode": 10037,
+        "counts": 1,
+        "ACRES": 46.657,
+        "Borough": "Manhattan",
+        "Neighborhood": "Central Harlem"
+    },
+    {
+        "": 52,
+        "ZipCode": 10038,
+        "counts": 11,
+        "ACRES": 4.309,
+        "Borough": "Manhattan",
+        "Neighborhood": "Lower Manhattan"
+    },
+    {
+        "": 53,
+        "ZipCode": 10039,
+        "counts": 9,
+        "ACRES": 21.528,
+        "Borough": "Manhattan",
+        "Neighborhood": "Central Harlem"
+    },
+    {
+        "": 54,
+        "ZipCode": 10039,
+        "counts": 3,
+        "ACRES": 178.43599999999998,
+        "Borough": "Manhattan",
+        "Neighborhood": "Central Harlem"
+    },
+    {
+        "": 55,
+        "ZipCode": 10040,
+        "counts": 3,
+        "ACRES": 180.324,
+        "Borough": "Manhattan",
+        "Neighborhood": "Inwood and Washington Heights"
+    },
+    {
+        "": 56,
+        "ZipCode": 10040,
+        "counts": 3,
+        "ACRES": 84.48599999999999,
+        "Borough": "Manhattan",
+        "Neighborhood": "Inwood and Washington Heights"
+    },
+    {
+        "": 57,
+        "ZipCode": 10065,
+        "counts": 3,
+        "ACRES": 9.696,
+        "Borough": "Manhattan",
+        "Neighborhood": "Upper East Side"
+    },
+    {
+        "": 58,
+        "ZipCode": 10065,
+        "counts": 2,
+        "ACRES": 2.005,
+        "Borough": "Manhattan",
+        "Neighborhood": "Upper East Side"
+    },
+    {
+        "": 59,
+        "ZipCode": 10075,
+        "counts": 2,
+        "ACRES": 7.712,
+        "Borough": "Manhattan",
+        "Neighborhood": "Upper East Side"
+    },
+    {
+        "": 60,
+        "ZipCode": 10128,
+        "counts": 5,
+        "ACRES": 14.806,
+        "Borough": "Manhattan",
+        "Neighborhood": "Upper East Side"
+    },
+    {
+        "": 61,
+        "ZipCode": 10128,
+        "counts": 3,
+        "ACRES": 14.445,
+        "Borough": "Manhattan",
+        "Neighborhood": "Upper East Side"
+    },
+    {
+        "": 62,
+        "ZipCode": 10280,
+        "counts": 2,
+        "ACRES": 50.314,
+        "Borough": "Manhattan",
+        "Neighborhood": "Lower Manhattan"
+    },
+    {
+        "": 63,
+        "ZipCode": 10280,
+        "counts": 1,
+        "ACRES": 1.556,
+        "Borough": "Manhattan",
+        "Neighborhood": "Lower Manhattan"
+    },
+    {
+        "": 64,
+        "ZipCode": 10301,
+        "counts": 26,
+        "ACRES": 1000.322,
+        "Borough": "Staten Island",
+        "Neighborhood": "Stapleton and St. George"
+    },
+    {
+        "": 65,
+        "ZipCode": 10302,
+        "counts": 7,
+        "ACRES": 211.632,
+        "Borough": "Staten Island",
+        "Neighborhood": "Port Richmond"
+    },
+    {
+        "": 66,
+        "ZipCode": 10303,
+        "counts": 10,
+        "ACRES": 242.235,
+        "Borough": "Staten Island",
+        "Neighborhood": "Port Richmond"
+    },
+    {
+        "": 67,
+        "ZipCode": 10303,
+        "counts": 1,
+        "ACRES": 198.481,
+        "Borough": "Staten Island",
+        "Neighborhood": "Port Richmond"
+    },
+    {
+        "": 68,
+        "ZipCode": 10304,
+        "counts": 14,
+        "ACRES": 145.486,
+        "Borough": "Staten Island",
+        "Neighborhood": "Stapleton and St. George"
+    },
+    {
+        "": 69,
+        "ZipCode": 10304,
+        "counts": 2,
+        "ACRES": 403.358,
+        "Borough": "Staten Island",
+        "Neighborhood": "Stapleton and St. George"
+    },
+    {
+        "": 70,
+        "ZipCode": 10305,
+        "counts": 13,
+        "ACRES": 818.6210000000001,
+        "Borough": "Staten Island",
+        "Neighborhood": "Stapleton and St. George"
+    },
+    {
+        "": 71,
+        "ZipCode": 10305,
+        "counts": 1,
+        "ACRES": 15.524,
+        "Borough": "Staten Island",
+        "Neighborhood": "Stapleton and St. George"
+    },
+    {
+        "": 72,
+        "ZipCode": 10306,
+        "counts": 10,
+        "ACRES": 1104.585,
+        "Borough": "Staten Island",
+        "Neighborhood": "South Shore"
+    },
+    {
+        "": 73,
+        "ZipCode": 10306,
+        "counts": 5,
+        "ACRES": 1289.694,
+        "Borough": "Staten Island",
+        "Neighborhood": "South Shore"
+    },
+    {
+        "": 74,
+        "ZipCode": 10307,
+        "counts": 4,
+        "ACRES": 308.58500000000004,
+        "Borough": "Staten Island",
+        "Neighborhood": "South Shore"
+    },
+    {
+        "": 75,
+        "ZipCode": 10308,
+        "counts": 7,
+        "ACRES": 440.774,
+        "Borough": "Staten Island",
+        "Neighborhood": "South Shore"
+    },
+    {
+        "": 76,
+        "ZipCode": 10309,
+        "counts": 13,
+        "ACRES": 889.883,
+        "Borough": "Staten Island",
+        "Neighborhood": "South Shore"
+    },
+    {
+        "": 77,
+        "ZipCode": 10309,
+        "counts": 2,
+        "ACRES": 637.365,
+        "Borough": "Staten Island",
+        "Neighborhood": "South Shore"
+    },
+    {
+        "": 78,
+        "ZipCode": 10310,
+        "counts": 9,
+        "ACRES": 37.992,
+        "Borough": "Staten Island",
+        "Neighborhood": "Port Richmond"
+    },
+    {
+        "": 79,
+        "ZipCode": 10310,
+        "counts": 2,
+        "ACRES": 276.723,
+        "Borough": "Staten Island",
+        "Neighborhood": "Port Richmond"
+    },
+    {
+        "": 80,
+        "ZipCode": 10312,
+        "counts": 25,
+        "ACRES": 1367.707,
+        "Borough": "Staten Island",
+        "Neighborhood": "South Shore"
+    },
+    {
+        "": 81,
+        "ZipCode": 10312,
+        "counts": 4,
+        "ACRES": 938.63,
+        "Borough": "Staten Island",
+        "Neighborhood": "South Shore"
+    },
+    {
+        "": 82,
+        "ZipCode": 10314,
+        "counts": 22,
+        "ACRES": 1080.509,
+        "Borough": "Staten Island",
+        "Neighborhood": "Mid-Island"
+    },
+    {
+        "": 83,
+        "ZipCode": 10314,
+        "counts": 6,
+        "ACRES": 2302.612,
+        "Borough": "Staten Island",
+        "Neighborhood": "Mid-Island"
+    },
+    {
+        "": 84,
+        "ZipCode": 10451,
+        "counts": 31,
+        "ACRES": 104.386,
+        "Borough": "Bronx",
+        "Neighborhood": "High Bridge and Morrisania"
+    },
+    {
+        "": 85,
+        "ZipCode": 10451,
+        "counts": 1,
+        "ACRES": 46.657,
+        "Borough": "Bronx",
+        "Neighborhood": "High Bridge and Morrisania"
+    },
+    {
+        "": 86,
+        "ZipCode": 10452,
+        "counts": 32,
+        "ACRES": 38.728,
+        "Borough": "Bronx",
+        "Neighborhood": "High Bridge and Morrisania"
+    },
+    {
+        "": 87,
+        "ZipCode": 10452,
+        "counts": 3,
+        "ACRES": 183.762,
+        "Borough": "Bronx",
+        "Neighborhood": "High Bridge and Morrisania"
+    },
+    {
+        "": 88,
+        "ZipCode": 10453,
+        "counts": 25,
+        "ACRES": 18.429,
+        "Borough": "Bronx",
+        "Neighborhood": "Central Bronx"
+    },
+    {
+        "": 89,
+        "ZipCode": 10453,
+        "counts": 1,
+        "ACRES": 7.156,
+        "Borough": "Bronx",
+        "Neighborhood": "Central Bronx"
+    },
+    {
+        "": 90,
+        "ZipCode": 10454,
+        "counts": 17,
+        "ACRES": 50.325,
+        "Borough": "Bronx",
+        "Neighborhood": "Hunts Point and Mott Haven"
+    },
+    {
+        "": 91,
+        "ZipCode": 10455,
+        "counts": 15,
+        "ACRES": 13.84,
+        "Borough": "Bronx",
+        "Neighborhood": "Hunts Point and Mott Haven"
+    },
+    {
+        "": 92,
+        "ZipCode": 10455,
+        "counts": 1,
+        "ACRES": 35.311,
+        "Borough": "Bronx",
+        "Neighborhood": "Hunts Point and Mott Haven"
+    },
+    {
+        "": 93,
+        "ZipCode": 10456,
+        "counts": 28,
+        "ACRES": 144.606,
+        "Borough": "Bronx",
+        "Neighborhood": "High Bridge and Morrisania"
+    },
+    {
+        "": 94,
+        "ZipCode": 10456,
+        "counts": 1,
+        "ACRES": 1.377,
+        "Borough": "Bronx",
+        "Neighborhood": "High Bridge and Morrisania"
+    },
+    {
+        "": 95,
+        "ZipCode": 10457,
+        "counts": 33,
+        "ACRES": 76.278,
+        "Borough": "Bronx",
+        "Neighborhood": "Central Bronx"
+    },
+    {
+        "": 96,
+        "ZipCode": 10457,
+        "counts": 3,
+        "ACRES": 129.732,
+        "Borough": "Bronx",
+        "Neighborhood": "Central Bronx"
+    },
+    {
+        "": 97,
+        "ZipCode": 10458,
+        "counts": 15,
+        "ACRES": 915.904,
+        "Borough": "Bronx",
+        "Neighborhood": "Bronx Park and Fordham"
+    },
+    {
+        "": 98,
+        "ZipCode": 10459,
+        "counts": 24,
+        "ACRES": 42.589,
+        "Borough": "Bronx",
+        "Neighborhood": "Hunts Point and Mott Haven"
+    },
+    {
+        "": 99,
+        "ZipCode": 10460,
+        "counts": 29,
+        "ACRES": 231.54700000000005,
+        "Borough": "Bronx",
+        "Neighborhood": "Central Bronx"
+    },
+    {
+        "": 100,
+        "ZipCode": 10460,
+        "counts": 3,
+        "ACRES": 954.783,
+        "Borough": "Bronx",
+        "Neighborhood": "Central Bronx"
+    },
+    {
+        "": 101,
+        "ZipCode": 10461,
+        "counts": 13,
+        "ACRES": 3014.633,
+        "Borough": "Bronx",
+        "Neighborhood": "Southeast Bronx"
+    },
+    {
+        "": 102,
+        "ZipCode": 10461,
+        "counts": 1,
+        "ACRES": 108.91,
+        "Borough": "Bronx",
+        "Neighborhood": "Southeast Bronx"
+    },
+    {
+        "": 103,
+        "ZipCode": 10462,
+        "counts": 10,
+        "ACRES": 8.071,
+        "Borough": "Bronx",
+        "Neighborhood": "Southeast Bronx"
+    },
+    {
+        "": 104,
+        "ZipCode": 10462,
+        "counts": 4,
+        "ACRES": 1057.341,
+        "Borough": "Bronx",
+        "Neighborhood": "Southeast Bronx"
+    },
+    {
+        "": 105,
+        "ZipCode": 10463,
+        "counts": 25,
+        "ACRES": 252.421,
+        "Borough": "Bronx",
+        "Neighborhood": "Kingsbridge and Riverdale"
+    },
+    {
+        "": 106,
+        "ZipCode": 10463,
+        "counts": 1,
+        "ACRES": 1.646,
+        "Borough": "Bronx",
+        "Neighborhood": "Kingsbridge and Riverdale"
+    },
+    {
+        "": 107,
+        "ZipCode": 10464,
+        "counts": 3,
+        "ACRES": 14.241,
+        "Borough": "Bronx",
+        "Neighborhood": "Southeast Bronx"
+    },
+    {
+        "": 108,
+        "ZipCode": 10464,
+        "counts": 2,
+        "ACRES": 5543.494,
+        "Borough": "Bronx",
+        "Neighborhood": "Southeast Bronx"
+    },
+    {
+        "": 109,
+        "ZipCode": 10465,
+        "counts": 9,
+        "ACRES": 453.865,
+        "Borough": "Bronx",
+        "Neighborhood": "Southeast Bronx"
+    },
+    {
+        "": 110,
+        "ZipCode": 10465,
+        "counts": 2,
+        "ACRES": 3000.887,
+        "Borough": "Bronx",
+        "Neighborhood": "Southeast Bronx"
+    },
+    {
+        "": 111,
+        "ZipCode": 10466,
+        "counts": 4,
+        "ACRES": 42.184,
+        "Borough": "Bronx",
+        "Neighborhood": "Northeast Bronx"
+    },
+    {
+        "": 112,
+        "ZipCode": 10466,
+        "counts": 1,
+        "ACRES": 206.717,
+        "Borough": "Bronx",
+        "Neighborhood": "Northeast Bronx"
+    },
+    {
+        "": 113,
+        "ZipCode": 10467,
+        "counts": 12,
+        "ACRES": 1173.7910000000002,
+        "Borough": "Bronx",
+        "Neighborhood": "Bronx Park and Fordham"
+    },
+    {
+        "": 114,
+        "ZipCode": 10467,
+        "counts": 4,
+        "ACRES": 1114.936,
+        "Borough": "Bronx",
+        "Neighborhood": "Bronx Park and Fordham"
+    },
+    {
+        "": 115,
+        "ZipCode": 10468,
+        "counts": 13,
+        "ACRES": 54.915,
+        "Borough": "Bronx",
+        "Neighborhood": "Bronx Park and Fordham"
+    },
+    {
+        "": 116,
+        "ZipCode": 10468,
+        "counts": 5,
+        "ACRES": 12.404,
+        "Borough": "Bronx",
+        "Neighborhood": "Bronx Park and Fordham"
+    },
+    {
+        "": 117,
+        "ZipCode": 10469,
+        "counts": 6,
+        "ACRES": 16.893,
+        "Borough": "Bronx",
+        "Neighborhood": "Northeast Bronx"
+    },
+    {
+        "": 118,
+        "ZipCode": 10469,
+        "counts": 3,
+        "ACRES": 3109.797,
+        "Borough": "Bronx",
+        "Neighborhood": "Northeast Bronx"
+    },
+    {
+        "": 119,
+        "ZipCode": 10470,
+        "counts": 2,
+        "ACRES": 1353.1470000000002,
+        "Borough": "Bronx",
+        "Neighborhood": "Northeast Bronx"
+    },
+    {
+        "": 120,
+        "ZipCode": 10470,
+        "counts": 2,
+        "ACRES": 1.2240000000000002,
+        "Borough": "Bronx",
+        "Neighborhood": "Northeast Bronx"
+    },
+    {
+        "": 121,
+        "ZipCode": 10471,
+        "counts": 7,
+        "ACRES": 30.941000000000003,
+        "Borough": "Bronx",
+        "Neighborhood": "Kingsbridge and Riverdale"
+    },
+    {
+        "": 122,
+        "ZipCode": 10471,
+        "counts": 5,
+        "ACRES": 1358.299,
+        "Borough": "Bronx",
+        "Neighborhood": "Kingsbridge and Riverdale"
+    },
+    {
+        "": 123,
+        "ZipCode": 10472,
+        "counts": 10,
+        "ACRES": 7.767,
+        "Borough": "Bronx",
+        "Neighborhood": "Southeast Bronx"
+    },
+    {
+        "": 124,
+        "ZipCode": 10472,
+        "counts": 4,
+        "ACRES": 231.329,
+        "Borough": "Bronx",
+        "Neighborhood": "Southeast Bronx"
+    },
+    {
+        "": 125,
+        "ZipCode": 10473,
+        "counts": 14,
+        "ACRES": 309.784,
+        "Borough": "Bronx",
+        "Neighborhood": "Southeast Bronx"
+    },
+    {
+        "": 126,
+        "ZipCode": 10473,
+        "counts": 2,
+        "ACRES": 206.723,
+        "Borough": "Bronx",
+        "Neighborhood": "Southeast Bronx"
+    },
+    {
+        "": 127,
+        "ZipCode": 10474,
+        "counts": 9,
+        "ACRES": 51.058,
+        "Borough": "Bronx",
+        "Neighborhood": "Hunts Point and Mott Haven"
+    },
+    {
+        "": 128,
+        "ZipCode": 10475,
+        "counts": 2,
+        "ACRES": 3000.887,
+        "Borough": "Bronx",
+        "Neighborhood": "Northeast Bronx"
+    },
+    {
+        "": 129,
+        "ZipCode": 10475,
+        "counts": 2,
+        "ACRES": 14.135,
+        "Borough": "Bronx",
+        "Neighborhood": "Northeast Bronx"
+    },
+    {
+        "": 130,
+        "ZipCode": 10704,
+        "counts": 1,
+        "ACRES": 206.717,
+        "Borough": "",
+        "Neighborhood": ""
+    },
+    {
+        "": 131,
+        "ZipCode": 10705,
+        "counts": 2,
+        "ACRES": 2292.86,
+        "Borough": "",
+        "Neighborhood": ""
+    },
+    {
+        "": 132,
+        "ZipCode": 10803,
+        "counts": 1,
+        "ACRES": 2771.747,
+        "Borough": "",
+        "Neighborhood": ""
+    },
+    {
+        "": 133,
+        "ZipCode": 11003,
+        "counts": 2,
+        "ACRES": 386.507,
+        "Borough": "",
+        "Neighborhood": ""
+    },
+    {
+        "": 134,
+        "ZipCode": 11004,
+        "counts": 4,
+        "ACRES": 176.658,
+        "Borough": "Queens",
+        "Neighborhood": "Southeast Queens"
+    },
+    {
+        "": 135,
+        "ZipCode": 11005,
+        "counts": 1,
+        "ACRES": 171.2,
+        "Borough": "Queens",
+        "Neighborhood": "Southeast Queens"
+    },
+    {
+        "": 136,
+        "ZipCode": 11096,
+        "counts": 1,
+        "ACRES": 149.54,
+        "Borough": "",
+        "Neighborhood": ""
+    },
+    {
+        "": 137,
+        "ZipCode": 11101,
+        "counts": 16,
+        "ACRES": 47.672,
+        "Borough": "Queens",
+        "Neighborhood": "Northwest Queens"
+    },
+    {
+        "": 138,
+        "ZipCode": 11102,
+        "counts": 12,
+        "ACRES": 19.46299754,
+        "Borough": "Queens",
+        "Neighborhood": "Northwest Queens"
+    },
+    {
+        "": 139,
+        "ZipCode": 11103,
+        "counts": 4,
+        "ACRES": 252.271,
+        "Borough": "Queens",
+        "Neighborhood": "Northwest Queens"
+    },
+    {
+        "": 140,
+        "ZipCode": 11104,
+        "counts": 2,
+        "ACRES": 3.077,
+        "Borough": "Queens",
+        "Neighborhood": "Northwest Queens"
+    },
+    {
+        "": 141,
+        "ZipCode": 11105,
+        "counts": 6,
+        "ACRES": 69.846,
+        "Borough": "Queens",
+        "Neighborhood": "Northwest Queens"
+    },
+    {
+        "": 142,
+        "ZipCode": 11106,
+        "counts": 7,
+        "ACRES": 20.811,
+        "Borough": "Queens",
+        "Neighborhood": "Northwest Queens"
+    },
+    {
+        "": 143,
+        "ZipCode": 11106,
+        "counts": 1,
+        "ACRES": 5.84399754,
+        "Borough": "Queens",
+        "Neighborhood": "Northwest Queens"
+    },
+    {
+        "": 144,
+        "ZipCode": 11201,
+        "counts": 42,
+        "ACRES": 117.388,
+        "Borough": "Brooklyn",
+        "Neighborhood": "Northwest Brooklyn"
+    },
+    {
+        "": 145,
+        "ZipCode": 11201,
+        "counts": 4,
+        "ACRES": 85.508,
+        "Borough": "Brooklyn",
+        "Neighborhood": "Northwest Brooklyn"
+    },
+    {
+        "": 146,
+        "ZipCode": 11203,
+        "counts": 7,
+        "ACRES": 16.512999999999998,
+        "Borough": "Brooklyn",
+        "Neighborhood": "Flatbush"
+    },
+    {
+        "": 147,
+        "ZipCode": 11204,
+        "counts": 4,
+        "ACRES": 11.345,
+        "Borough": "Brooklyn",
+        "Neighborhood": "Borough Park"
+    },
+    {
+        "": 148,
+        "ZipCode": 11205,
+        "counts": 14,
+        "ACRES": 13.766,
+        "Borough": "Brooklyn",
+        "Neighborhood": "Northwest Brooklyn"
+    },
+    {
+        "": 149,
+        "ZipCode": 11205,
+        "counts": 1,
+        "ACRES": 30.168,
+        "Borough": "Brooklyn",
+        "Neighborhood": "Northwest Brooklyn"
+    },
+    {
+        "": 150,
+        "ZipCode": 11206,
+        "counts": 34,
+        "ACRES": 28.274,
+        "Borough": "Brooklyn",
+        "Neighborhood": "Bushwick and Williamsburg"
+    },
+    {
+        "": 151,
+        "ZipCode": 11207,
+        "counts": 59,
+        "ACRES": 274.084,
+        "Borough": "Brooklyn",
+        "Neighborhood": "East New York and New Lots"
+    },
+    {
+        "": 152,
+        "ZipCode": 11208,
+        "counts": 31,
+        "ACRES": 938.681,
+        "Borough": "Brooklyn",
+        "Neighborhood": "East New York and New Lots"
+    },
+    {
+        "": 153,
+        "ZipCode": 11208,
+        "counts": 2,
+        "ACRES": 146.339,
+        "Borough": "Brooklyn",
+        "Neighborhood": "East New York and New Lots"
+    },
+    {
+        "": 154,
+        "ZipCode": 11209,
+        "counts": 14,
+        "ACRES": 296.25199999999995,
+        "Borough": "Brooklyn",
+        "Neighborhood": "Southwest Brooklyn"
+    },
+    {
+        "": 155,
+        "ZipCode": 11209,
+        "counts": 1,
+        "ACRES": 760.43,
+        "Borough": "Brooklyn",
+        "Neighborhood": "Southwest Brooklyn"
+    },
+    {
+        "": 156,
+        "ZipCode": 11210,
+        "counts": 6,
+        "ACRES": 8.687000000000001,
+        "Borough": "Brooklyn",
+        "Neighborhood": "Flatbush"
+    },
+    {
+        "": 157,
+        "ZipCode": 11211,
+        "counts": 51,
+        "ACRES": 102.971,
+        "Borough": "Brooklyn",
+        "Neighborhood": "Greenpoint"
+    },
+    {
+        "": 158,
+        "ZipCode": 11212,
+        "counts": 37,
+        "ACRES": 34.489,
+        "Borough": "Brooklyn",
+        "Neighborhood": "Central Brooklyn"
+    },
+    {
+        "": 159,
+        "ZipCode": 11213,
+        "counts": 9,
+        "ACRES": 100.347,
+        "Borough": "Brooklyn",
+        "Neighborhood": "Central Brooklyn"
+    },
+    {
+        "": 160,
+        "ZipCode": 11214,
+        "counts": 10,
+        "ACRES": 148.048,
+        "Borough": "Brooklyn",
+        "Neighborhood": "Southwest Brooklyn"
+    },
+    {
+        "": 161,
+        "ZipCode": 11214,
+        "counts": 1,
+        "ACRES": 760.43,
+        "Borough": "Brooklyn",
+        "Neighborhood": "Southwest Brooklyn"
+    },
+    {
+        "": 162,
+        "ZipCode": 11215,
+        "counts": 20,
+        "ACRES": 557.632,
+        "Borough": "Brooklyn",
+        "Neighborhood": "Northwest Brooklyn"
+    },
+    {
+        "": 163,
+        "ZipCode": 11216,
+        "counts": 17,
+        "ACRES": 20.812,
+        "Borough": "Brooklyn",
+        "Neighborhood": "Central Brooklyn"
+    },
+    {
+        "": 164,
+        "ZipCode": 11216,
+        "counts": 1,
+        "ACRES": 63.636,
+        "Borough": "Brooklyn",
+        "Neighborhood": "Central Brooklyn"
+    },
+    {
+        "": 165,
+        "ZipCode": 11217,
+        "counts": 10,
+        "ACRES": 9.008,
+        "Borough": "Brooklyn",
+        "Neighborhood": "Northwest Brooklyn"
+    },
+    {
+        "": 166,
+        "ZipCode": 11217,
+        "counts": 1,
+        "ACRES": 14.257,
+        "Borough": "Brooklyn",
+        "Neighborhood": "Northwest Brooklyn"
+    },
+    {
+        "": 167,
+        "ZipCode": 11218,
+        "counts": 13,
+        "ACRES": 149.34300000000002,
+        "Borough": "Brooklyn",
+        "Neighborhood": "Borough Park"
+    },
+    {
+        "": 168,
+        "ZipCode": 11219,
+        "counts": 6,
+        "ACRES": 18.728,
+        "Borough": "Brooklyn",
+        "Neighborhood": "Borough Park"
+    },
+    {
+        "": 169,
+        "ZipCode": 11220,
+        "counts": 11,
+        "ACRES": 32.681,
+        "Borough": "Brooklyn",
+        "Neighborhood": "Sunset Park"
+    },
+    {
+        "": 170,
+        "ZipCode": 11220,
+        "counts": 2,
+        "ACRES": 74.8,
+        "Borough": "Brooklyn",
+        "Neighborhood": "Sunset Park"
+    },
+    {
+        "": 171,
+        "ZipCode": 11221,
+        "counts": 21,
+        "ACRES": 12.28,
+        "Borough": "Brooklyn",
+        "Neighborhood": "Bushwick and Williamsburg"
+    },
+    {
+        "": 172,
+        "ZipCode": 11222,
+        "counts": 12,
+        "ACRES": 26.302,
+        "Borough": "Brooklyn",
+        "Neighborhood": "Greenpoint"
+    },
+    {
+        "": 173,
+        "ZipCode": 11222,
+        "counts": 1,
+        "ACRES": 36.493,
+        "Borough": "Brooklyn",
+        "Neighborhood": "Greenpoint"
+    },
+    {
+        "": 174,
+        "ZipCode": 11223,
+        "counts": 11,
+        "ACRES": 12.355,
+        "Borough": "Brooklyn",
+        "Neighborhood": "Southern Brooklyn"
+    },
+    {
+        "": 175,
+        "ZipCode": 11223,
+        "counts": 2,
+        "ACRES": 900.43,
+        "Borough": "Brooklyn",
+        "Neighborhood": "Southern Brooklyn"
+    },
+    {
+        "": 176,
+        "ZipCode": 11224,
+        "counts": 19,
+        "ACRES": 491.706,
+        "Borough": "Brooklyn",
+        "Neighborhood": "Southern Brooklyn"
+    },
+    {
+        "": 177,
+        "ZipCode": 11224,
+        "counts": 1,
+        "ACRES": 140,
+        "Borough": "Brooklyn",
+        "Neighborhood": "Southern Brooklyn"
+    },
+    {
+        "": 178,
+        "ZipCode": 11225,
+        "counts": 8,
+        "ACRES": 7.114,
+        "Borough": "Brooklyn",
+        "Neighborhood": "Flatbush"
+    },
+    {
+        "": 179,
+        "ZipCode": 11225,
+        "counts": 1,
+        "ACRES": 63.636,
+        "Borough": "Brooklyn",
+        "Neighborhood": "Flatbush"
+    },
+    {
+        "": 180,
+        "ZipCode": 11226,
+        "counts": 5,
+        "ACRES": 40.128,
+        "Borough": "Brooklyn",
+        "Neighborhood": "Flatbush"
+    },
+    {
+        "": 181,
+        "ZipCode": 11228,
+        "counts": 4,
+        "ACRES": 10.937,
+        "Borough": "Brooklyn",
+        "Neighborhood": "Southwest Brooklyn"
+    },
+    {
+        "": 182,
+        "ZipCode": 11228,
+        "counts": 3,
+        "ACRES": 977.089,
+        "Borough": "Brooklyn",
+        "Neighborhood": "Southwest Brooklyn"
+    },
+    {
+        "": 183,
+        "ZipCode": 11229,
+        "counts": 10,
+        "ACRES": 807.123,
+        "Borough": "Brooklyn",
+        "Neighborhood": "Southern Brooklyn"
+    },
+    {
+        "": 184,
+        "ZipCode": 11230,
+        "counts": 5,
+        "ACRES": 11.075,
+        "Borough": "Brooklyn",
+        "Neighborhood": "Borough Park"
+    },
+    {
+        "": 185,
+        "ZipCode": 11230,
+        "counts": 2,
+        "ACRES": 140.73,
+        "Borough": "Brooklyn",
+        "Neighborhood": "Borough Park"
+    },
+    {
+        "": 186,
+        "ZipCode": 11231,
+        "counts": 20,
+        "ACRES": 79.19,
+        "Borough": "Brooklyn",
+        "Neighborhood": "Northwest Brooklyn"
+    },
+    {
+        "": 187,
+        "ZipCode": 11232,
+        "counts": 3,
+        "ACRES": 26.864,
+        "Borough": "Brooklyn",
+        "Neighborhood": "Sunset Park"
+    },
+    {
+        "": 188,
+        "ZipCode": 11232,
+        "counts": 1,
+        "ACRES": 1.08,
+        "Borough": "Brooklyn",
+        "Neighborhood": "Sunset Park"
+    },
+    {
+        "": 189,
+        "ZipCode": 11233,
+        "counts": 36,
+        "ACRES": 26.016,
+        "Borough": "Brooklyn",
+        "Neighborhood": "Central Brooklyn"
+    },
+    {
+        "": 190,
+        "ZipCode": 11233,
+        "counts": 3,
+        "ACRES": 82.84,
+        "Borough": "Brooklyn",
+        "Neighborhood": "Central Brooklyn"
+    },
+    {
+        "": 191,
+        "ZipCode": 11234,
+        "counts": 18,
+        "ACRES": 284.618,
+        "Borough": "Brooklyn",
+        "Neighborhood": "Canarsie and Flatlands"
+    },
+    {
+        "": 192,
+        "ZipCode": 11234,
+        "counts": 2,
+        "ACRES": 1558.4299999999998,
+        "Borough": "Brooklyn",
+        "Neighborhood": "Canarsie and Flatlands"
+    },
+    {
+        "": 193,
+        "ZipCode": 11235,
+        "counts": 11,
+        "ACRES": 58.416,
+        "Borough": "Brooklyn",
+        "Neighborhood": "Southern Brooklyn"
+    },
+    {
+        "": 194,
+        "ZipCode": 11235,
+        "counts": 4,
+        "ACRES": 2097.903,
+        "Borough": "Brooklyn",
+        "Neighborhood": "Southern Brooklyn"
+    },
+    {
+        "": 195,
+        "ZipCode": 11236,
+        "counts": 13,
+        "ACRES": 220.731,
+        "Borough": "Brooklyn",
+        "Neighborhood": "Canarsie and Flatlands"
+    },
+    {
+        "": 196,
+        "ZipCode": 11236,
+        "counts": 1,
+        "ACRES": 118.795,
+        "Borough": "Brooklyn",
+        "Neighborhood": "Canarsie and Flatlands"
+    },
+    {
+        "": 197,
+        "ZipCode": 11237,
+        "counts": 4,
+        "ACRES": 11.046,
+        "Borough": "Brooklyn",
+        "Neighborhood": "Bushwick and Williamsburg"
+    },
+    {
+        "": 198,
+        "ZipCode": 11238,
+        "counts": 16,
+        "ACRES": 73.843,
+        "Borough": "Brooklyn",
+        "Neighborhood": "Central Brooklyn"
+    },
+    {
+        "": 199,
+        "ZipCode": 11238,
+        "counts": 2,
+        "ACRES": 77.893,
+        "Borough": "Brooklyn",
+        "Neighborhood": "Central Brooklyn"
+    },
+    {
+        "": 200,
+        "ZipCode": 11239,
+        "counts": 3,
+        "ACRES": 251.827,
+        "Borough": "Brooklyn",
+        "Neighborhood": "Canarsie and Flatlands"
+    },
+    {
+        "": 201,
+        "ZipCode": 11239,
+        "counts": 2,
+        "ACRES": 3.162,
+        "Borough": "Brooklyn",
+        "Neighborhood": "Canarsie and Flatlands"
+    },
+    {
+        "": 202,
+        "ZipCode": 11354,
+        "counts": 13,
+        "ACRES": 951.096,
+        "Borough": "Queens",
+        "Neighborhood": "North Queens"
+    },
+    {
+        "": 203,
+        "ZipCode": 11355,
+        "counts": 5,
+        "ACRES": 104.475,
+        "Borough": "Queens",
+        "Neighborhood": "North Queens"
+    },
+    {
+        "": 204,
+        "ZipCode": 11355,
+        "counts": 1,
+        "ACRES": 897.69,
+        "Borough": "Queens",
+        "Neighborhood": "North Queens"
+    },
+    {
+        "": 205,
+        "ZipCode": 11356,
+        "counts": 8,
+        "ACRES": 97.541,
+        "Borough": "Queens",
+        "Neighborhood": "North Queens"
+    },
+    {
+        "": 206,
+        "ZipCode": 11356,
+        "counts": 1,
+        "ACRES": 26.83,
+        "Borough": "Queens",
+        "Neighborhood": "North Queens"
+    },
+    {
+        "": 207,
+        "ZipCode": 11357,
+        "counts": 8,
+        "ACRES": 31.67,
+        "Borough": "Queens",
+        "Neighborhood": "North Queens"
+    },
+    {
+        "": 208,
+        "ZipCode": 11357,
+        "counts": 2,
+        "ACRES": 381.918,
+        "Borough": "Queens",
+        "Neighborhood": "North Queens"
+    },
+    {
+        "": 209,
+        "ZipCode": 11358,
+        "counts": 4,
+        "ACRES": 4.434,
+        "Borough": "Queens",
+        "Neighborhood": "North Queens"
+    },
+    {
+        "": 210,
+        "ZipCode": 11359,
+        "counts": 2,
+        "ACRES": 115.614,
+        "Borough": "Queens",
+        "Neighborhood": "North Queens"
+    },
+    {
+        "": 211,
+        "ZipCode": 11359,
+        "counts": 1,
+        "ACRES": 326.895,
+        "Borough": "Queens",
+        "Neighborhood": "North Queens"
+    },
+    {
+        "": 212,
+        "ZipCode": 11360,
+        "counts": 6,
+        "ACRES": 137.89600000000002,
+        "Borough": "Queens",
+        "Neighborhood": "North Queens"
+    },
+    {
+        "": 213,
+        "ZipCode": 11360,
+        "counts": 2,
+        "ACRES": 382.115,
+        "Borough": "Queens",
+        "Neighborhood": "North Queens"
+    },
+    {
+        "": 214,
+        "ZipCode": 11361,
+        "counts": 7,
+        "ACRES": 691.9110000000001,
+        "Borough": "Queens",
+        "Neighborhood": "Northeast Queens"
+    },
+    {
+        "": 215,
+        "ZipCode": 11361,
+        "counts": 2,
+        "ACRES": 343.895,
+        "Borough": "Queens",
+        "Neighborhood": "Northeast Queens"
+    },
+    {
+        "": 216,
+        "ZipCode": 11362,
+        "counts": 9,
+        "ACRES": 112.594,
+        "Borough": "Queens",
+        "Neighborhood": "Northeast Queens"
+    },
+    {
+        "": 217,
+        "ZipCode": 11362,
+        "counts": 3,
+        "ACRES": 1133.609,
+        "Borough": "Queens",
+        "Neighborhood": "Northeast Queens"
+    },
+    {
+        "": 218,
+        "ZipCode": 11363,
+        "counts": 4,
+        "ACRES": 45.455,
+        "Borough": "Queens",
+        "Neighborhood": "Northeast Queens"
+    },
+    {
+        "": 219,
+        "ZipCode": 11363,
+        "counts": 1,
+        "ACRES": 635.514,
+        "Borough": "Queens",
+        "Neighborhood": "Northeast Queens"
+    },
+    {
+        "": 220,
+        "ZipCode": 11364,
+        "counts": 11,
+        "ACRES": 385.212,
+        "Borough": "Queens",
+        "Neighborhood": "Northeast Queens"
+    },
+    {
+        "": 221,
+        "ZipCode": 11364,
+        "counts": 3,
+        "ACRES": 1133.609,
+        "Borough": "Queens",
+        "Neighborhood": "Northeast Queens"
+    },
+    {
+        "": 222,
+        "ZipCode": 11365,
+        "counts": 9,
+        "ACRES": 298.115,
+        "Borough": "Queens",
+        "Neighborhood": "Central Queens"
+    },
+    {
+        "": 223,
+        "ZipCode": 11366,
+        "counts": 1,
+        "ACRES": 0.749,
+        "Borough": "Queens",
+        "Neighborhood": "Central Queens"
+    },
+    {
+        "": 224,
+        "ZipCode": 11366,
+        "counts": 1,
+        "ACRES": 45.937,
+        "Borough": "Queens",
+        "Neighborhood": "Central Queens"
+    },
+    {
+        "": 225,
+        "ZipCode": 11367,
+        "counts": 7,
+        "ACRES": 11.387,
+        "Borough": "Queens",
+        "Neighborhood": "Central Queens"
+    },
+    {
+        "": 226,
+        "ZipCode": 11367,
+        "counts": 3,
+        "ACRES": 1318.279,
+        "Borough": "Queens",
+        "Neighborhood": "Central Queens"
+    },
+    {
+        "": 227,
+        "ZipCode": 11368,
+        "counts": 16,
+        "ACRES": 13.721,
+        "Borough": "Queens",
+        "Neighborhood": "West Queens"
+    },
+    {
+        "": 228,
+        "ZipCode": 11368,
+        "counts": 2,
+        "ACRES": 1147.0790000000002,
+        "Borough": "Queens",
+        "Neighborhood": "West Queens"
+    },
+    {
+        "": 229,
+        "ZipCode": 11369,
+        "counts": 12,
+        "ACRES": 8.719999999999999,
+        "Borough": "Queens",
+        "Neighborhood": "West Queens"
+    },
+    {
+        "": 230,
+        "ZipCode": 11369,
+        "counts": 1,
+        "ACRES": 249.389,
+        "Borough": "Queens",
+        "Neighborhood": "West Queens"
+    },
+    {
+        "": 231,
+        "ZipCode": 11370,
+        "counts": 11,
+        "ACRES": 12.386,
+        "Borough": "Queens",
+        "Neighborhood": "West Queens"
+    },
+    {
+        "": 232,
+        "ZipCode": 11370,
+        "counts": 1,
+        "ACRES": 249.389,
+        "Borough": "Queens",
+        "Neighborhood": "West Queens"
+    },
+    {
+        "": 233,
+        "ZipCode": 11371,
+        "counts": 1,
+        "ACRES": 249.389,
+        "Borough": "",
+        "Neighborhood": ""
+    },
+    {
+        "": 234,
+        "ZipCode": 11372,
+        "counts": 5,
+        "ACRES": 4.993,
+        "Borough": "Queens",
+        "Neighborhood": "West Queens"
+    },
+    {
+        "": 235,
+        "ZipCode": 11372,
+        "counts": 1,
+        "ACRES": 0.55,
+        "Borough": "Queens",
+        "Neighborhood": "West Queens"
+    },
+    {
+        "": 236,
+        "ZipCode": 11373,
+        "counts": 23,
+        "ACRES": 16.306,
+        "Borough": "Queens",
+        "Neighborhood": "West Queens"
+    },
+    {
+        "": 237,
+        "ZipCode": 11373,
+        "counts": 1,
+        "ACRES": 0.241,
+        "Borough": "Queens",
+        "Neighborhood": "West Queens"
+    },
+    {
+        "": 238,
+        "ZipCode": 11374,
+        "counts": 6,
+        "ACRES": 7.287,
+        "Borough": "Queens",
+        "Neighborhood": "West Central Queens"
+    },
+    {
+        "": 239,
+        "ZipCode": 11375,
+        "counts": 11,
+        "ACRES": 517.909,
+        "Borough": "Queens",
+        "Neighborhood": "West Central Queens"
+    },
+    {
+        "": 240,
+        "ZipCode": 11375,
+        "counts": 2,
+        "ACRES": 322.139,
+        "Borough": "Queens",
+        "Neighborhood": "West Central Queens"
+    },
+    {
+        "": 241,
+        "ZipCode": 11377,
+        "counts": 23,
+        "ACRES": 20.068,
+        "Borough": "Queens",
+        "Neighborhood": "West Queens"
+    },
+    {
+        "": 242,
+        "ZipCode": 11378,
+        "counts": 19,
+        "ACRES": 12.883,
+        "Borough": "Queens",
+        "Neighborhood": "West Queens"
+    },
+    {
+        "": 243,
+        "ZipCode": 11379,
+        "counts": 3,
+        "ACRES": 56.115,
+        "Borough": "Queens",
+        "Neighborhood": "West Central Queens"
+    },
+    {
+        "": 244,
+        "ZipCode": 11379,
+        "counts": 2,
+        "ACRES": 0.018,
+        "Borough": "Queens",
+        "Neighborhood": "West Central Queens"
+    },
+    {
+        "": 245,
+        "ZipCode": 11385,
+        "counts": 13,
+        "ACRES": 19.622,
+        "Borough": "Queens",
+        "Neighborhood": "West Central Queens"
+    },
+    {
+        "": 246,
+        "ZipCode": 11385,
+        "counts": 4,
+        "ACRES": 725.9490000000001,
+        "Borough": "Queens",
+        "Neighborhood": "West Central Queens"
+    },
+    {
+        "": 247,
+        "ZipCode": 11411,
+        "counts": 3,
+        "ACRES": 8.719999999999999,
+        "Borough": "Queens",
+        "Neighborhood": "Southeast Queens"
+    },
+    {
+        "": 248,
+        "ZipCode": 11411,
+        "counts": 1,
+        "ACRES": 59.612,
+        "Borough": "Queens",
+        "Neighborhood": "Southeast Queens"
+    },
+    {
+        "": 249,
+        "ZipCode": 11412,
+        "counts": 4,
+        "ACRES": 3.236,
+        "Borough": "Queens",
+        "Neighborhood": "Jamaica"
+    },
+    {
+        "": 250,
+        "ZipCode": 11413,
+        "counts": 10,
+        "ACRES": 506.11,
+        "Borough": "Queens",
+        "Neighborhood": "Southeast Queens"
+    },
+    {
+        "": 251,
+        "ZipCode": 11414,
+        "counts": 5,
+        "ACRES": 12.659,
+        "Borough": "Queens",
+        "Neighborhood": "Southwest Queens"
+    },
+    {
+        "": 252,
+        "ZipCode": 11414,
+        "counts": 4,
+        "ACRES": 357.931,
+        "Borough": "Queens",
+        "Neighborhood": "Southwest Queens"
+    },
+    {
+        "": 253,
+        "ZipCode": 11415,
+        "counts": 3,
+        "ACRES": 1.565,
+        "Borough": "Queens",
+        "Neighborhood": "Southwest Queens"
+    },
+    {
+        "": 254,
+        "ZipCode": 11415,
+        "counts": 2,
+        "ACRES": 579.61,
+        "Borough": "Queens",
+        "Neighborhood": "Southwest Queens"
+    },
+    {
+        "": 255,
+        "ZipCode": 11416,
+        "counts": 4,
+        "ACRES": 4.41,
+        "Borough": "Queens",
+        "Neighborhood": "Southwest Queens"
+    },
+    {
+        "": 256,
+        "ZipCode": 11417,
+        "counts": 12,
+        "ACRES": 22.306,
+        "Borough": "Queens",
+        "Neighborhood": "Southwest Queens"
+    },
+    {
+        "": 257,
+        "ZipCode": 11418,
+        "counts": 1,
+        "ACRES": 0.005,
+        "Borough": "Queens",
+        "Neighborhood": "Southwest Queens"
+    },
+    {
+        "": 258,
+        "ZipCode": 11419,
+        "counts": 2,
+        "ACRES": 4.56,
+        "Borough": "Queens",
+        "Neighborhood": "Southwest Queens"
+    },
+    {
+        "": 259,
+        "ZipCode": 11420,
+        "counts": 9,
+        "ACRES": 16.201999999999998,
+        "Borough": "Queens",
+        "Neighborhood": "Southwest Queens"
+    },
+    {
+        "": 260,
+        "ZipCode": 11420,
+        "counts": 1,
+        "ACRES": 202.647,
+        "Borough": "Queens",
+        "Neighborhood": "Southwest Queens"
+    },
+    {
+        "": 261,
+        "ZipCode": 11421,
+        "counts": 3,
+        "ACRES": 1.413,
+        "Borough": "Queens",
+        "Neighborhood": "Southwest Queens"
+    },
+    {
+        "": 262,
+        "ZipCode": 11421,
+        "counts": 1,
+        "ACRES": 506.86,
+        "Borough": "Queens",
+        "Neighborhood": "Southwest Queens"
+    },
+    {
+        "": 263,
+        "ZipCode": 11422,
+        "counts": 4,
+        "ACRES": 441.571,
+        "Borough": "Queens",
+        "Neighborhood": "Southeast Queens"
+    },
+    {
+        "": 264,
+        "ZipCode": 11422,
+        "counts": 2,
+        "ACRES": 2.81,
+        "Borough": "Queens",
+        "Neighborhood": "Southeast Queens"
+    },
+    {
+        "": 265,
+        "ZipCode": 11423,
+        "counts": 4,
+        "ACRES": 7.113,
+        "Borough": "Queens",
+        "Neighborhood": "Jamaica"
+    },
+    {
+        "": 266,
+        "ZipCode": 11423,
+        "counts": 2,
+        "ACRES": 529.2,
+        "Borough": "Queens",
+        "Neighborhood": "Jamaica"
+    },
+    {
+        "": 267,
+        "ZipCode": 11426,
+        "counts": 6,
+        "ACRES": 83.785,
+        "Borough": "Queens",
+        "Neighborhood": "Southeast Queens"
+    },
+    {
+        "": 268,
+        "ZipCode": 11426,
+        "counts": 2,
+        "ACRES": 806.7139999999999,
+        "Borough": "Queens",
+        "Neighborhood": "Southeast Queens"
+    },
+    {
+        "": 269,
+        "ZipCode": 11427,
+        "counts": 2,
+        "ACRES": 360.719,
+        "Borough": "Queens",
+        "Neighborhood": "Southeast Queens"
+    },
+    {
+        "": 270,
+        "ZipCode": 11427,
+        "counts": 2,
+        "ACRES": 0.8210000000000001,
+        "Borough": "Queens",
+        "Neighborhood": "Southeast Queens"
+    },
+    {
+        "": 271,
+        "ZipCode": 11428,
+        "counts": 1,
+        "ACRES": 0.03,
+        "Borough": "Queens",
+        "Neighborhood": "Southeast Queens"
+    },
+    {
+        "": 272,
+        "ZipCode": 11429,
+        "counts": 7,
+        "ACRES": 5.861,
+        "Borough": "Queens",
+        "Neighborhood": "Southeast Queens"
+    },
+    {
+        "": 273,
+        "ZipCode": 11430,
+        "counts": 2,
+        "ACRES": 352.187,
+        "Borough": "",
+        "Neighborhood": ""
+    },
+    {
+        "": 274,
+        "ZipCode": 11432,
+        "counts": 7,
+        "ACRES": 27.958,
+        "Borough": "Queens",
+        "Neighborhood": "Jamaica"
+    },
+    {
+        "": 275,
+        "ZipCode": 11433,
+        "counts": 12,
+        "ACRES": 31.89,
+        "Borough": "Queens",
+        "Neighborhood": "Jamaica"
+    },
+    {
+        "": 276,
+        "ZipCode": 11434,
+        "counts": 9,
+        "ACRES": 193.954,
+        "Borough": "Queens",
+        "Neighborhood": "Jamaica"
+    },
+    {
+        "": 277,
+        "ZipCode": 11434,
+        "counts": 1,
+        "ACRES": 202.647,
+        "Borough": "Queens",
+        "Neighborhood": "Jamaica"
+    },
+    {
+        "": 278,
+        "ZipCode": 11435,
+        "counts": 8,
+        "ACRES": 9.72285643,
+        "Borough": "Queens",
+        "Neighborhood": "Jamaica"
+    },
+    {
+        "": 279,
+        "ZipCode": 11436,
+        "counts": 5,
+        "ACRES": 9.027,
+        "Borough": "Queens",
+        "Neighborhood": "Jamaica"
+    },
+    {
+        "": 280,
+        "ZipCode": 11559,
+        "counts": 2,
+        "ACRES": 116.486,
+        "Borough": "",
+        "Neighborhood": ""
+    },
+    {
+        "": 281,
+        "ZipCode": 11580,
+        "counts": 1,
+        "ACRES": 59.612,
+        "Borough": "",
+        "Neighborhood": ""
+    },
+    {
+        "": 282,
+        "ZipCode": 11691,
+        "counts": 21,
+        "ACRES": 844.74,
+        "Borough": "Queens",
+        "Neighborhood": "Rockaways"
+    },
+    {
+        "": 283,
+        "ZipCode": 11691,
+        "counts": 2,
+        "ACRES": 154.863,
+        "Borough": "Queens",
+        "Neighborhood": "Rockaways"
+    },
+    {
+        "": 284,
+        "ZipCode": 11692,
+        "counts": 10,
+        "ACRES": 484.617,
+        "Borough": "Queens",
+        "Neighborhood": "Rockaways"
+    },
+    {
+        "": 285,
+        "ZipCode": 11692,
+        "counts": 3,
+        "ACRES": 762.958,
+        "Borough": "Queens",
+        "Neighborhood": "Rockaways"
+    },
+    {
+        "": 286,
+        "ZipCode": 11693,
+        "counts": 10,
+        "ACRES": 75.174,
+        "Borough": "Queens",
+        "Neighborhood": "Rockaways"
+    },
+    {
+        "": 287,
+        "ZipCode": 11693,
+        "counts": 5,
+        "ACRES": 499.454,
+        "Borough": "Queens",
+        "Neighborhood": "Rockaways"
+    },
+    {
+        "": 288,
+        "ZipCode": 11694,
+        "counts": 12,
+        "ACRES": 229.724,
+        "Borough": "Queens",
+        "Neighborhood": "Rockaways"
+    },
+    {
+        "": 289,
+        "ZipCode": 11694,
+        "counts": 2,
+        "ACRES": 385.604,
+        "Borough": "Queens",
+        "Neighborhood": "Rockaways"
+    }
+]
 
-
-let button_chart_value_human_dog_pop = 'All';
 // console.log("hihi: ", button_chart_value)
 // const button_chart=["All","Manhattan","Staten Island","Bronx","Queens","Brooklyn"];
+const zipBorough=[[],
+    [10026,
+        10027,
+        10030,
+        10037,
+        10039,
+        10001,
+        10011,
+        10018,
+        10019,
+        10020,
+        10036,
+        10029,
+        10035,
+        10010,
+        10016,
+        10017,
+        10022,
+        10012,
+        10013,
+        10014,
+        10004,
+        10005,
+        10006,
+        10007,
+        10038,
+        10280,
+        10002,
+        10003,
+        10009,
+        10021,
+        10028,
+        10044,
+        10065,
+        10075,
+        10128,
+        10023,
+        10024,
+        10025,
+        10031,
+        10032,
+        10033,
+        10034,
+        10040],
+    [10302,
+        10303,
+        10310,
+        10306,
+        10307,
+        10308,
+        10309,
+        10312,
+        10301,
+        10304,
+        10305,
+        10314],
+    [10453,
+    10457,
+    10460,
+    10458,
+    10467,
+    10468,
+    10451,
+    10452,
+    10456,
+    10454,
+    10455,
+    10459,
+    10474,
+    10463,
+    10471,
+    10466,
+    10469,
+    10470,
+    10475,
+    10461,
+    10462,
+    10464,
+    10465,
+    10472,
+    10473],
+    [11361,
+        11362,
+        11363,
+        11364,
+        11354,
+        11355,
+        11356,
+        11357,
+        11358,
+        11359,
+        11360,
+        11365,
+        11366,
+        11367,
+        11412,
+        11423,
+        11432,
+        11433,
+        11434,
+        11435,
+        11436,
+        11101,
+        11102,
+        11103,
+        11104,
+        11105,
+        11106,
+        11374,
+        11375,
+        11379,
+        11385,
+        11691,
+        11692,
+        11693,
+        11694,
+        11695,
+        11697,
+        11004,
+        11005,
+        11411,
+        11413,
+        11422,
+        11426,
+        11427,
+        11428,
+        11429,
+        11414,
+        11415,
+        11416,
+        11417,
+        11418,
+        11419,
+        11420,
+        11421,
+        11368,
+        11369,
+        11370,
+        11372,
+        11373,
+        11377,
+        11378],
+    [11212,
+        11213,
+        11216,
+        11233,
+        11238,
+        11209,
+        11214,
+        11228,
+        11204,
+        11218,
+        11219,
+        11230,
+        11234,
+        11236,
+        11239,
+        11223,
+        11224,
+        11229,
+        11235,
+        11201,
+        11205,
+        11215,
+        11217,
+        11231,
+        11203,
+        11210,
+        11225,
+        11226,
+        11207,
+        11208,
+        11211,
+        11222,
+        11220,
+        11232,
+        11206,
+        11221,
+        11237]]//borough containing zipcode
 const DogBourough=[{
     "Borough": "All",
     "dog": 208999,
-    "people": 3182736
+    "people": 3182736,
+    "park_count":2240,
+    "park_acre":84712
 }, {
     "Borough": "Manhattan",
     "dog": 73120.0,
-    "people": 754879
+    "people": 754879,
+    "park_count":439,
+    "park_acre":6584
 }, {
     "Borough": "Staten Island",
     "dog": 15999,
-    "people": 166490
+    "people": 166490,
+    "park_count":183,
+    "park_acre":13710
 },
     {
         "Borough": "Bronx",
         "dog": 22244,
-        "people": 517842
+        "people": 517842,
+        "park_count":439,
+        "park_acre":28747
     },
     {
         "Borough": "Queens",
         "dog": 40960,
-        "people": 772361
+        "people": 772361,
+        "park_count":527,
+        "park_acre":22204
     }, {
         "Borough": "Brooklyn",
         "dog": 56676,
-        "people": 971164
+        "people": 971164,
+        "park_count":652,
+        "park_acre":28747
     },
-   ]
+]
+
+let button_chart_value_human_dog_pop = 'All';
 
 var Tooltipfixed = d3.select("#tool-fixed")
     .append("div")
     .style("opacity", 1)
     .attr("class", "tooltip")
-    .style("background-color", "black")
+    // .style("background-color", "black")
     .style("color", "grey")
-    .style("border", "solid")
+    // .style("border", "solid")
     .style("position", "absolute")
     .style("top", "10vh")
     .style("border-width", "0.5px")
     .style("border-radius", "5px");
-Tooltipfixed.html("<table style='width: 100%; margin:auto; text-align: center;\n'><tr><th>borough</th><th><img src='img/dog.svg' id='icon_dog' style='width:45px'></th><th><img src='img/human.svg' id='icon_human' style='width:45px'></th></tr><tr><td>"
-    + "All" + "</td><td>"
-    + 208999+ "</td><td>"
-    + 3182736
-    +"</td></tr></table>");
+Tooltipfixed.html("<h1>NYC</h1> <table style='table-layout: fixed;width: 350px; margin:auto; text-align: left;'>" +
+    "<tr>" +
+    "<th><p>population</p></th>" + "<th><p>" +3182736 + "</p></th><th><img src='img/dog.svg' id='icon_dog' style='width:45px'></th></tr><tr>" +
+    "<th><p>dog</p></th>" + "<th><p>"+ 208999 + "</p></th><th><img src='img/human.svg' id='icon_human' style='width:45px'></th></tr><tr>" +
+    "<th><p>park count</p></th>" + "<th><p>"+ 2046 + "</p></th><th><img src='img/park.svg' id='icon_park' style='width:45px'></th></tr><tr>" +
+    "<th><p>park acre</p></th>" + "<th><p>"+ 1059 + "</p></th><th><img src='img/park.svg' id='icon_park2' style='width:45px'></th></tr></table>"
+);
+let button_chart = document.getElementsByName('dog-human-pop');
 
 function displayDogValue() {
-    let button_chart = document.getElementsByName('dog-human-pop');
-    console.log(button_chart)
     for (let i = 0; i < button_chart.length; i++) {
         if (button_chart[i].checked){
             button_chart_value_human_dog_pop = button_chart[i].value;
-            Tooltipfixed.html("<table style='width: 100%; margin:auto; text-align: center;\n'><tr><th>borough</th><th><img src='img/dog.svg' id='icon_dog' style='width:45px'></th><th><img src='img/human.svg' id='icon_human' style='width:45px'></th></tr><tr><td>"
-                + button_chart_value + "</td><td>"
-                + DogBourough[i].dog+ "</td><td>"
-                + DogBourough[i].people
-                +"</td></tr></table>")
+            displayZip(i)
+            Tooltipfixed.html(
+                "<h1>"+button_chart_value_human_dog_pop+"</h1> <table style='table-layout: fixed;width: 350px; margin:auto; text-align: left;'>" +
+                "<tr>" +
+                "<th><p>population</p></th>" + "<th><p>" +DogBourough[i].people + "</p></th><th><img src='img/dog.svg' id='icon_dog' style='width:45px'></th></tr><tr>" +
+                "<th><p>dog</p></th>" + "<th><p>"+ DogBourough[i].dog + "</p></th><th><img src='img/human.svg' id='icon_human' style='width:45px'></th></tr><tr>" +
+                "<th><p>park count</p></th>" + "<th><p>"+ DogBourough[i].park_count + "</p></th><th><img src='img/park.svg' id='icon_park' style='width:45px'></th></tr><tr>" +
+                "<th><p>park acre</p></th>" + "<th><p>"+ DogBourough[i].park_acre + "</p></th><th><img src='img/park.svg' id='icon_park2' style='width:45px'></th></tr></table>"
+
+            )
         }
     }
-
-
 }
+function displayZip(i) {
+    console.log("hi")
+    d3.selectAll("#map path")
+        .style("opacity", function(d) {
+            // d3.select(this)
+                for (let z=0;z<zipBorough[i].length;z++) {
+                    if (d.ZipCode = zipBorough[i][z]) {
+                        console.log(d.ZipCode)
 
+                        return 1
+                    } else {
+                        return 0.3
+                    }
+                }
+            }
+        )
+}
+    //
+    // world.style("opacity", function zipInBorough(d) {
+    //
+    //         // for (let i = 0; i < button_chart.length; i++) {
+    //         //     if (button_chart[i].checked){
+    //         //         button_chart_value_human_dog_pop = button_chart[i].value;
+    //                 for (let z=0;z<zipBorough[i].length;z++){
+    //         if(d.ZipCode==zipBorough[i][z]){
+    //             return 1
+    //         }else{
+    //             return 0.3
+    //         }
+    //         // }
+    //         // }
+    //         }
+    //     }
+    //
+    // )
 
+// html(
+//     "<h1>"+button_chart_value_human_dog_pop+"</h1> <table style='table-layout: fixed;width: 350px; margin:auto; text-align: left;'>" +
+//     "<tr>" +
+//     "<th><p>population<br>dog<br>park count<br>park acre</th></p>" +
+//     "<th><p>" +DogBourough[i].people + "<br>" +DogBourough[i].dog+
+//     "<br>" +DogBourough[i].park_count +
+//     "<br>"  + DogBourough[i].park_acre + "</p></th>"+
+//     "<th><img src='img/dog.svg' id='icon_dog' style='width:30px'><br><img src='img/human.svg' id='icon_human' style='width:30px'><br><img src='img/park.svg' id='icon_park' style='width:30px'><br><img src='img/park.svg' id='icon_park2' style='width:30px'></th></table>"
+//
+// )
 // getting the button value and update all the charts
 
 
 
 
-// gradient color scale
-//https://www.freshconsulting.com/insights/blog/d3-js-gradients-the-easy-way/
-var svg2 = d3.select('body')
-        .append('svg')
-        .attr('width', 500)
-        .attr('height', 300);
 
-var defs = svg2.append('defs');
+d3.json("data/nyc-zip-code-tabulation-areas-polygons.geojson", function(json) {
 
-
-var gradient = defs.append("linearGradient")
-    .attr("id", "svgGradient")
-    .attr("x1", "0%")
-    .attr("x2", "100%")
-    .attr("y1", "0%")
-    .attr("y2", "100%");
-
-    gradient.append("stop")
-    .attr("class", "start")
-    .attr("offset", "0%")
-    .attr("stop-color", "rgba(0,255,225,0.9)")
-    .attr("stop-opacity", 1);
-
-    gradient.append("stop")
-    .attr("class", "end")
-    .attr("offset", "100%")
-    .attr("stop-color", "rgba(165,82,255,0.9)")
-    .attr("stop-opacity", 1);
-// console.log(humanDog[1])
-
-d3.json("https://github.com/lyunsong123/WOOFWOOFNYC/blob/main/data/nyc-zip-code-tabulation-areas-polygons.geojson", function(json) {
-
-    // width and height
-    // var w = window.innerWidth;
-    // var h = window.innerHeight;
     const viz3_margin = {top: 0, right: 0, bottom: 0, left: 0};
     const viz3_width = document.getElementById('map').getBoundingClientRect().width - viz3_margin.left - viz3_margin.right;
     const viz3_height = document.getElementById('map').getBoundingClientRect().height - viz3_margin.top - viz3_margin.bottom;
-
 
     // container svg
     var svgNyc = d3.select("#map")
@@ -4175,81 +6703,166 @@ d3.json("https://github.com/lyunsong123/WOOFWOOFNYC/blob/main/data/nyc-zip-code-
         .append("g");
 
     // create a tooltip
-    var Tooltip = d3.select("#tool")
+    var Tooltip = d3.select("#tool").append('g')
+        .style("opacity", 1)
+    ;
+
+    var TooltipDiv = d3.select("#tool")
         .append("div")
         .style("opacity", 1)
-        .attr("class", "tooltip")
         .attr("id", "tooltip1")
-        .style("background-color", "black")
-        .style("color", "grey")
-        .style("border", "solid")
-        .style("border-width", "0.5px")
-        .style("border-radius", "5px")
+
+        .attr("class", "tooltip")
+        // .style("background-color", "white")
+        .style("color", "white");
+    // .style("border", "solid")
+    // .style("border-width", "5px");
+
+    // mapNode.append('circle')
+    //     // .attr('cx', d3.event.clientX)
+    //     // .attr('cy', d3.event.clientY)
+    //     .attr('r', 50)
+    //     .attr('stroke', 'white')
+    //     .attr('fill', '#69a3b2');
+    var svgCircle = d3.select("#tool") //create Svg element
+        .append("svg")
+            .style("border", "solid 8px red")
+        // .attr("height",1500 )
+        // .attr("width", 2500)
+    ;
+        // .style("border", "solid 8px red");
+    var mapCircle=svgCircle.append("circle") //Drawing circle
+        // .attr("cx", 100)
+        // .attr("cy", 100)
+        .attr("r", 50)
+        .attr("fill", "#FF96C5")
+        .attr("class", "tooltip")
+    ;
+        // .transition() // line 13 and 14 will be explain in detail in next lesson
+        // .duration(3000)
+        // .attr("transform","scale(2)")
+
     // Three function that change the tooltip when user hover / move / leave a cell
     var mouseover = function(d) {
         var obj = d.properties;
         for(let i=0;i<humanDog.length;i++){
             if (humanDog[i].ZipCode == obj.postalCode){
+                for(let m=0;m<zipBoroughNeiborhood.length;m++){
+                    if(zipBoroughNeiborhood[m].ZipCode == obj.postalCode){
+                        TooltipDiv
+                            .html(
+                                "<h1>"+humanDog[i].counts+"<img src='img/dog.svg' style='width:75px'></h1> <table style='table-layout: fixed;width: 350px; height:150px;margin:auto;margin-top:-45px; text-align: left;'>" +
+                                "<tr style='font-size: 12px; line-height: 30px; letter-spacing: 1px;'>" +
+                                "<th><p>bourough<br>neighborhood<br>zipcode</p></th>" + "<th><p>" +zipBoroughNeiborhood[m].Borough + "<br>"+ zipBoroughNeiborhood[m].Neighborhood +"<br>"+ humanDog[i].ZipCode+"</p></th></tr><tr>" +
+                                // "<th><p>neighborhood</p></th>" + "<th><p>"+ humanDog[i].neighborhood + "</p></th></tr><tr>" +
+
+                                // "<th><p>zipcode</p></th>" + "<th><p>"+ humanDog[i].ZipCode + "</p></th></tr><tr>" +
+                                "<th><p>household<br>park count<br>park acre</p></th>" + "<th><p>"+ humanDog[i]["# Household Size | Households, 2021 [Estimated]"] + "<br>"+ zipBoroughNeiborhood[m].counts + "<br>"+Math.round(zipBoroughNeiborhood[m].ACRES)+"</p></th><th><img src='img/human.svg' style='width:45px'><br><img src='img/park.svg' style='width:45px'></th></tr></table>"
+
+                                // "<th><p>park count</p></th>" + "<th><p>"+ humanDog[i].park_count + "</p></th><th><img src='img/park.svg' id='icon_park' style='width:45px'></th></tr><tr>" +
+                                // "<th><p>park acre</p></th>" + "<th><p>"+ humanDog[i].park_acre + "</p></th><th><img src='img/park.svg' id='icon_park2' style='width:45px'></th></tr></table>"
+
+                            );
+                    }
+                }
                 //
-                Tooltip
-                    .html(
-                        "<table style='width: 100%; margin:auto; text-align: center;\n'><tr><th>zipcode</th><th>borough</th><th><img src='img/dog.svg' id='icon_dog' style='width:45px'></th><th><img src='img/human.svg' id='icon_human' style='width:45px'></th></tr><tr><td>"
-                        + obj.postalCode + "</td><td>"
-                        + obj.borough + "</td><td>"
-                        + humanDog[i].counts + "</td><td>"
-                        + humanDog[i]["# Household Size | Households, 2021 [Estimated]"]
-                        +"</td></tr></table>"
-                    );
 
             }else{
                 console.log('error')
             }
         }
-        Tooltip
+        svgCircle
+            .transition()
+            .style('left', d3.event.pageX +120+ 'px')
+            .style('top', d3.event.pageY + 'px')
             .style("opacity", 1)
+        ;
+        mapCircle
+            .transition()
+            // .style("translate",(d3.event.pageX +120,d3.event.pageY))
+            // .attr('cx', d3.event.pageX +120)
+            // .attr('cy', d3.event.pageY )
+            // .style('left', d3.event.pageX +120+ 'px')
+            // .style('top', d3.event.pageY + 'px')
+            .style("opacity", 1)
+        ;
+
+        TooltipDiv
+            .transition()
+            .duration(50)
+            .style('left', d3.event.pageX +120+ 'px')
+            .style('top', d3.event.pageY + 'px')
+            .style("opacity", 1);
+        Tooltip
+            .transition()
+            .style('left', d3.event.pageX +120+ 'px')
+            .style('top', d3.event.pageY + 'px')
+            .style("opacity", 1)
+            ;
 
         d3.select(this)
             // .style("stroke", "black")
+            .transition()
+            .duration(50)
             .style("opacity", 1)
     };
 
     var mouseleave = function(d) {
+        // d3.selectAll('circle').style('opacity', '0.5');
+
         Tooltip
+            .transition()
+            .duration(50)
+            .style("opacity", 0);
+        TooltipDiv
+            .transition()
+            .duration(50)
+            .style("opacity", 0);
+
+        mapCircle
             .style("opacity", 0);
 
         // var svg = d3.select("#tooltip2");
         // svg.selectAll("*").remove();
         d3.select(this)
             // .style("stroke", "none")
+            .transition()
+            .duration(50)
+
             .style("opacity", 0.3)
+
     };
 
     // PLOT MAP
 
-     projection = d3.geo.mercator()
+    projection = d3.geo.mercator()
         // .scale([2])
-        .scale(65000)
+        .scale(63000)
         // .translate([200, 280])
         .translate([viz3_width/2, viz3_height/2-200])
         .center([-74.0, 40.84474188775384]);
 
-     land = d3.geo.path()
+    land = d3.geo.path()
         .projection(projection);
 
-     world = svgNyc.selectAll("path")
+    world = svgNyc.selectAll("path")
         .data(json.features)
         .enter()
         .append("path")
         .attr("d", land)
         .style("fill", "#ffffff")
         // .attr('fill', 'url(#svgGradient)')
-.       style("stroke-weight",0.1)
+        .       style("stroke-weight",0.1)
         .style('stroke', '#000000')
         // .style('skroke', gradient)
-.       style("opacity", 0.3)
+        .style("opacity", 0.3)
         .on("mouseover", mouseover)
         // .on("mousemove", mousemove)
-        .on("mouseleave", mouseleave);
+        .on("mouseleave", mouseleave)
+    ;
+
+
+
     // projection.fitExtent([[116.2202,40.0239], [116.1214,40.1159]]);
 
 });

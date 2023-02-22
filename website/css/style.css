@@ -1,3 +1,6 @@
+/**{*/
+/*    overflow-x: hidden;*/
+/*}*/
 body{ background-color: #000000;}
 
 /*HEADER______________________________________________________________________________________________________________*/
@@ -86,4 +89,18 @@ button:hover{ text-decoration: underline; cursor:pointer;}
 #text1, #text2 { z-index: 1000; margin: auto; position: fixed; width: 100%; display: inline-block;
     font-family: 'Roboto', sans-serif; font-size: 60pt; text-align: center; user-select: none;}
 
+/*MAPPING______________________________________________________________________________________________________________*/
+table, th, td {
+    /*border: 1px solid black;*/
+    border-collapse: collapse;
+}
+th, td {
+    padding-top: 0px;
+    /*padding-bottom: 20px;*/
+    /*padding-left: 30px;*/
+    /*padding-right: 40px;*/
+}
 
+.pointer {
+    cursor:url('../img/paw.svg'), auto;
+}
