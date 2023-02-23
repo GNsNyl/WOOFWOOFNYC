@@ -6607,29 +6607,37 @@ var Tooltipfixed = d3.select("#tool-fixed")
     .style("top", "10vh")
     .style("border-width", "0.5px")
     .style("border-radius", "5px");
-Tooltipfixed.html("<h1>NYC</h1> <table style='table-layout: fixed;width: 350px; margin:auto; text-align: left;'>" +
+Tooltipfixed.html(
+    "<h1>NYC</h1> <table style='table-layout: fixed;width: 350px; margin:auto; text-align: left;'>" +
     "<tr>" +
-    "<th><p>population</p></th>" + "<th><p>" +3182736 + "</p></th><th><img src='img/dog.svg' id='icon_dog' style='width:45px'></th></tr><tr>" +
-    "<th><p>dog</p></th>" + "<th><p>"+ 208999 + "</p></th><th><img src='img/human.svg' id='icon_human' style='width:45px'></th></tr><tr>" +
-    "<th><p>park count</p></th>" + "<th><p>"+ 2046 + "</p></th><th><img src='img/park.svg' id='icon_park' style='width:45px'></th></tr><tr>" +
-    "<th><p>park acre</p></th>" + "<th><p>"+ 1059 + "</p></th><th><img src='img/park.svg' id='icon_park2' style='width:45px'></th></tr></table>"
-);
-let button_chart = document.getElementsByName('dog-human-pop');
+    "<th><p>population<br>dog<br>park count<br>park acre</th></p>" +
+    "<th><p>3182736<img src='img/human.svg' id='icon_human' style='height:20px'><br>208999<img src='img/dog.svg' id='icon_dog' style='height:20px'><br>2046<img src='img/park.svg' id='icon_park' style='height:20px'><br>1059<img src='img/park.svg' id='icon_park' style='height:20px'></p></th></tr>"+
+    // "<th><img src='img/dog.svg' id='icon_dog' style='height:20px'><br><br><br><img src='img/park.svg' id='icon_park2' style='height:20px'></th>" +
+    "</table>"
 
+)
+
+let button_chart = document.getElementsByName('dog-human-pop');
 function displayDogValue() {
     for (let i = 0; i < button_chart.length; i++) {
         if (button_chart[i].checked){
             button_chart_value_human_dog_pop = button_chart[i].value;
             displayZip(i)
+            // Tooltipfixed.html(
+            //     "<h1>"+button_chart_value_human_dog_pop+"</h1> <table style='table-layout: fixed;width: 350px; margin:auto; text-align: left;'>" +
+            //     "<tr>" +
+            //     "<th><p>population</p></th>" + "<th><p>" +DogBourough[i].people + "</p></th><th><img src='img/dog.svg' id='icon_dog' style='width:45px'></th></tr><tr>" +
+            //     "<th><p>dog</p></th>" + "<th><p>"+ DogBourough[i].dog + "</p></th><th><img src='img/human.svg' id='icon_human' style='width:45px'></th></tr><tr>" +
+            //     "<th><p>park count</p></th>" + "<th><p>"+ DogBourough[i].park_count + "</p></th><th><img src='img/park.svg' id='icon_park' style='width:45px'></th></tr><tr>" +
+            //     "<th><p>park acre</p></th>" + "<th><p>"+ DogBourough[i].park_acre + "</p></th><th><img src='img/park.svg' id='icon_park2' style='width:45px'></th></tr></table>"
+            //
+            // )
             Tooltipfixed.html(
-                "<h1>"+button_chart_value_human_dog_pop+"</h1> <table style='table-layout: fixed;width: 350px; margin:auto; text-align: left;'>" +
-                "<tr>" +
-                "<th><p>population</p></th>" + "<th><p>" +DogBourough[i].people + "</p></th><th><img src='img/dog.svg' id='icon_dog' style='width:45px'></th></tr><tr>" +
-                "<th><p>dog</p></th>" + "<th><p>"+ DogBourough[i].dog + "</p></th><th><img src='img/human.svg' id='icon_human' style='width:45px'></th></tr><tr>" +
-                "<th><p>park count</p></th>" + "<th><p>"+ DogBourough[i].park_count + "</p></th><th><img src='img/park.svg' id='icon_park' style='width:45px'></th></tr><tr>" +
-                "<th><p>park acre</p></th>" + "<th><p>"+ DogBourough[i].park_acre + "</p></th><th><img src='img/park.svg' id='icon_park2' style='width:45px'></th></tr></table>"
-
-            )
+    "<h1>"+button_chart_value_human_dog_pop+"</h1> <table style='table-layout: fixed;width: 350px; margin:auto; text-align: left;'>" +
+    "<tr>" +
+    "<th><p>population<br>dog<br>park count<br>park acre</th></p>" +
+    "<th><p>" +DogBourough[i].people + "<img src='img/human.svg' id='icon_human' style='height:20px'><br>" +DogBourough[i].dog +"<img src='img/dog.svg' id='icon_dog' style='height:20px'>"+
+    "<br>" +DogBourough[i].park_count+"<img src='img/park.svg' id='icon_park' style='height:20px'><br>"+ DogBourough[i].park_acre + "<img src='img/park.svg' id='icon_park' style='height:20px'></p></th></table>" )
         }
     }
 }
@@ -6704,8 +6712,7 @@ d3.json("data/nyc-zip-code-tabulation-areas-polygons.geojson", function(json) {
 
     // create a tooltip
     var Tooltip = d3.select("#tool").append('g')
-        .style("opacity", 1)
-    ;
+        .style("opacity", 1);
 
     var TooltipDiv = d3.select("#tool")
         .append("div")
@@ -6718,26 +6725,6 @@ d3.json("data/nyc-zip-code-tabulation-areas-polygons.geojson", function(json) {
     // .style("border", "solid")
     // .style("border-width", "5px");
 
-    // mapNode.append('circle')
-    //     // .attr('cx', d3.event.clientX)
-    //     // .attr('cy', d3.event.clientY)
-    //     .attr('r', 50)
-    //     .attr('stroke', 'white')
-    //     .attr('fill', '#69a3b2');
-    var svgCircle = d3.select("#tool") //create Svg element
-        .append("svg")
-            .style("border", "solid 8px red")
-        // .attr("height",1500 )
-        // .attr("width", 2500)
-    ;
-        // .style("border", "solid 8px red");
-    var mapCircle=svgCircle.append("circle") //Drawing circle
-        // .attr("cx", 100)
-        // .attr("cy", 100)
-        .attr("r", 50)
-        .attr("fill", "#FF96C5")
-        .attr("class", "tooltip")
-    ;
         // .transition() // line 13 and 14 will be explain in detail in next lesson
         // .duration(3000)
         // .attr("transform","scale(2)")
@@ -6751,13 +6738,16 @@ d3.json("data/nyc-zip-code-tabulation-areas-polygons.geojson", function(json) {
                     if(zipBoroughNeiborhood[m].ZipCode == obj.postalCode){
                         TooltipDiv
                             .html(
-                                "<h1>"+humanDog[i].counts+"<img src='img/dog.svg' style='width:75px'></h1> <table style='table-layout: fixed;width: 350px; height:150px;margin:auto;margin-top:-45px; text-align: left;'>" +
+                               "<h1>"+humanDog[i].counts+"<img src='img/dog.svg' style='width:75px'></h1>" +
+                                "<table style='table-layout: fixed;width: 350px; height:150px;margin:auto;margin-top:-45px;'>" +
                                 "<tr style='font-size: 12px; line-height: 30px; letter-spacing: 1px;'>" +
                                 "<th><p>bourough<br>neighborhood<br>zipcode</p></th>" + "<th><p>" +zipBoroughNeiborhood[m].Borough + "<br>"+ zipBoroughNeiborhood[m].Neighborhood +"<br>"+ humanDog[i].ZipCode+"</p></th></tr><tr>" +
                                 // "<th><p>neighborhood</p></th>" + "<th><p>"+ humanDog[i].neighborhood + "</p></th></tr><tr>" +
 
                                 // "<th><p>zipcode</p></th>" + "<th><p>"+ humanDog[i].ZipCode + "</p></th></tr><tr>" +
-                                "<th><p>household<br>park count<br>park acre</p></th>" + "<th><p>"+ humanDog[i]["# Household Size | Households, 2021 [Estimated]"] + "<br>"+ zipBoroughNeiborhood[m].counts + "<br>"+Math.round(zipBoroughNeiborhood[m].ACRES)+"</p></th><th><img src='img/human.svg' style='width:45px'><br><img src='img/park.svg' style='width:45px'></th></tr></table>"
+                                "<th><p>household<br>park count<br>park acre</p></th>" + "<th><p>"+ humanDog[i]["# Household Size | Households, 2021 [Estimated]"] + "<img src='img/human.svg' style='height:25px'><br>"+ zipBoroughNeiborhood[m].counts + "<br>"+Math.round(zipBoroughNeiborhood[m].ACRES)+"<img src='img/park.svg' style='height:25px'></p></th>" +
+                                // "<th><img src='img/human.svg' style='width:45px'><br><img src='img/park.svg' style='width:45px'></th>" +
+                                "</tr></table>"
 
                                 // "<th><p>park count</p></th>" + "<th><p>"+ humanDog[i].park_count + "</p></th><th><img src='img/park.svg' id='icon_park' style='width:45px'></th></tr><tr>" +
                                 // "<th><p>park acre</p></th>" + "<th><p>"+ humanDog[i].park_acre + "</p></th><th><img src='img/park.svg' id='icon_park2' style='width:45px'></th></tr></table>"
@@ -6771,21 +6761,7 @@ d3.json("data/nyc-zip-code-tabulation-areas-polygons.geojson", function(json) {
                 console.log('error')
             }
         }
-        svgCircle
-            .transition()
-            .style('left', d3.event.pageX +120+ 'px')
-            .style('top', d3.event.pageY + 'px')
-            .style("opacity", 1)
-        ;
-        mapCircle
-            .transition()
-            // .style("translate",(d3.event.pageX +120,d3.event.pageY))
-            // .attr('cx', d3.event.pageX +120)
-            // .attr('cy', d3.event.pageY )
-            // .style('left', d3.event.pageX +120+ 'px')
-            // .style('top', d3.event.pageY + 'px')
-            .style("opacity", 1)
-        ;
+
 
         TooltipDiv
             .transition()
@@ -6819,8 +6795,8 @@ d3.json("data/nyc-zip-code-tabulation-areas-polygons.geojson", function(json) {
             .duration(50)
             .style("opacity", 0);
 
-        mapCircle
-            .style("opacity", 0);
+        // mapCircle
+        //     .style("opacity", 0);
 
         // var svg = d3.select("#tooltip2");
         // svg.selectAll("*").remove();
