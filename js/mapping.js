@@ -1314,7 +1314,7 @@ const humanDog=[
     },
     {
         "ZipCode": 10301,
-        "Name": "10301, Staten Island, NY",
+        "Name": "10301, STATEN-ISLAND, NY",
         "Housing Median Gross Rent, 2021 [Estimated]": 1340.579831,
         "Median Household Income, 2021 [Estimated]": 60641.74452,
         "# Value [B25075] | Owner-occupied housing units, 2019": 6630,
@@ -1333,7 +1333,7 @@ const humanDog=[
     },
     {
         "ZipCode": 10302,
-        "Name": "10302, Staten Island, NY",
+        "Name": "10302, STATEN-ISLAND, NY",
         "Housing Median Gross Rent, 2021 [Estimated]": 1389.992087,
         "Median Household Income, 2021 [Estimated]": 67762.62407,
         "# Value [B25075] | Owner-occupied housing units, 2019": 3420,
@@ -1352,7 +1352,7 @@ const humanDog=[
     },
     {
         "ZipCode": 10303,
-        "Name": "10303, Staten Island, NY",
+        "Name": "10303, STATEN-ISLAND, NY",
         "Housing Median Gross Rent, 2021 [Estimated]": 1086.747645,
         "Median Household Income, 2021 [Estimated]": 68054.46596,
         "# Value [B25075] | Owner-occupied housing units, 2019": 5043,
@@ -1371,7 +1371,7 @@ const humanDog=[
     },
     {
         "ZipCode": 10304,
-        "Name": "10304, Staten Island, NY",
+        "Name": "10304, STATEN-ISLAND, NY",
         "Housing Median Gross Rent, 2021 [Estimated]": 1040.689217,
         "Median Household Income, 2021 [Estimated]": 53199.6,
         "# Value [B25075] | Owner-occupied housing units, 2019": 7141,
@@ -1390,7 +1390,7 @@ const humanDog=[
     },
     {
         "ZipCode": 10305,
-        "Name": "10305, Staten Island, NY",
+        "Name": "10305, STATEN-ISLAND, NY",
         "Housing Median Gross Rent, 2021 [Estimated]": 1339.805485,
         "Median Household Income, 2021 [Estimated]": 79676.28932,
         "# Value [B25075] | Owner-occupied housing units, 2019": 9657,
@@ -1409,7 +1409,7 @@ const humanDog=[
     },
     {
         "ZipCode": 10306,
-        "Name": "10306, Staten Island, NY",
+        "Name": "10306, STATEN-ISLAND, NY",
         "Housing Median Gross Rent, 2021 [Estimated]": 1408.054224,
         "Median Household Income, 2021 [Estimated]": 80650.36783,
         "# Value [B25075] | Owner-occupied housing units, 2019": 14172,
@@ -1428,7 +1428,7 @@ const humanDog=[
     },
     {
         "ZipCode": 10307,
-        "Name": "10307, Staten Island, NY",
+        "Name": "10307, STATEN-ISLAND, NY",
         "Housing Median Gross Rent, 2021 [Estimated]": 1210.606121,
         "Median Household Income, 2021 [Estimated]": 85097.54887,
         "# Value [B25075] | Owner-occupied housing units, 2019": 4018,
@@ -1447,7 +1447,7 @@ const humanDog=[
     },
     {
         "ZipCode": 10308,
-        "Name": "10308, Staten Island, NY",
+        "Name": "10308, STATEN-ISLAND, NY",
         "Housing Median Gross Rent, 2021 [Estimated]": 1796.966465,
         "Median Household Income, 2021 [Estimated]": 101861.8406,
         "# Value [B25075] | Owner-occupied housing units, 2019": 8648,
@@ -1466,7 +1466,7 @@ const humanDog=[
     },
     {
         "ZipCode": 10309,
-        "Name": "10309, Staten Island, NY",
+        "Name": "10309, STATEN-ISLAND, NY",
         "Housing Median Gross Rent, 2021 [Estimated]": 1446.194497,
         "Median Household Income, 2021 [Estimated]": 111329.2958,
         "# Value [B25075] | Owner-occupied housing units, 2019": 10037,
@@ -1485,7 +1485,7 @@ const humanDog=[
     },
     {
         "ZipCode": 10310,
-        "Name": "10310, Staten Island, NY",
+        "Name": "10310, STATEN-ISLAND, NY",
         "Housing Median Gross Rent, 2021 [Estimated]": 1308.271356,
         "Median Household Income, 2021 [Estimated]": 75562.90219,
         "# Value [B25075] | Owner-occupied housing units, 2019": 5009,
@@ -1504,7 +1504,7 @@ const humanDog=[
     },
     {
         "ZipCode": 10311,
-        "Name": "10311, Staten Island, NY",
+        "Name": "10311, STATEN-ISLAND, NY",
         "Housing Median Gross Rent, 2021 [Estimated]": "",
         "Median Household Income, 2021 [Estimated]": "",
         "# Value [B25075] | Owner-occupied housing units, 2019": 0,
@@ -1523,7 +1523,7 @@ const humanDog=[
     },
     {
         "ZipCode": 10312,
-        "Name": "10312, Staten Island, NY",
+        "Name": "10312, STATEN-ISLAND, NY",
         "Housing Median Gross Rent, 2021 [Estimated]": 1278.707891,
         "Median Household Income, 2021 [Estimated]": 98793.42519,
         "# Value [B25075] | Owner-occupied housing units, 2019": 18098,
@@ -1542,7 +1542,7 @@ const humanDog=[
     },
     {
         "ZipCode": 10314,
-        "Name": "10314, Staten Island, NY",
+        "Name": "10314, STATEN-ISLAND, NY",
         "Housing Median Gross Rent, 2021 [Estimated]": 1466.741633,
         "Median Household Income, 2021 [Estimated]": 91690.9947,
         "# Value [B25075] | Owner-occupied housing units, 2019": 23392,
@@ -4567,7 +4567,7 @@ const zipBoroughNeiborhood=[
         "ZipCode": 10301,
         "counts": 26,
         "ACRES": 1000.322,
-        "Borough": "Staten Island",
+        "Borough": "STATEN-ISLAND",
         "Neighborhood": "Stapleton and St. George"
     },
     {
@@ -4575,7 +4575,7 @@ const zipBoroughNeiborhood=[
         "ZipCode": 10302,
         "counts": 7,
         "ACRES": 211.632,
-        "Borough": "Staten Island",
+        "Borough": "STATEN-ISLAND",
         "Neighborhood": "Port Richmond"
     },
     {
@@ -4583,7 +4583,7 @@ const zipBoroughNeiborhood=[
         "ZipCode": 10303,
         "counts": 10,
         "ACRES": 242.235,
-        "Borough": "Staten Island",
+        "Borough": "STATEN-ISLAND",
         "Neighborhood": "Port Richmond"
     },
     {
@@ -4591,7 +4591,7 @@ const zipBoroughNeiborhood=[
         "ZipCode": 10303,
         "counts": 1,
         "ACRES": 198.481,
-        "Borough": "Staten Island",
+        "Borough": "STATEN-ISLAND",
         "Neighborhood": "Port Richmond"
     },
     {
@@ -4599,7 +4599,7 @@ const zipBoroughNeiborhood=[
         "ZipCode": 10304,
         "counts": 14,
         "ACRES": 145.486,
-        "Borough": "Staten Island",
+        "Borough": "STATEN-ISLAND",
         "Neighborhood": "Stapleton and St. George"
     },
     {
@@ -4607,7 +4607,7 @@ const zipBoroughNeiborhood=[
         "ZipCode": 10304,
         "counts": 2,
         "ACRES": 403.358,
-        "Borough": "Staten Island",
+        "Borough": "STATEN-ISLAND",
         "Neighborhood": "Stapleton and St. George"
     },
     {
@@ -4615,7 +4615,7 @@ const zipBoroughNeiborhood=[
         "ZipCode": 10305,
         "counts": 13,
         "ACRES": 818.6210000000001,
-        "Borough": "Staten Island",
+        "Borough": "STATEN-ISLAND",
         "Neighborhood": "Stapleton and St. George"
     },
     {
@@ -4623,7 +4623,7 @@ const zipBoroughNeiborhood=[
         "ZipCode": 10305,
         "counts": 1,
         "ACRES": 15.524,
-        "Borough": "Staten Island",
+        "Borough": "STATEN-ISLAND",
         "Neighborhood": "Stapleton and St. George"
     },
     {
@@ -4631,7 +4631,7 @@ const zipBoroughNeiborhood=[
         "ZipCode": 10306,
         "counts": 10,
         "ACRES": 1104.585,
-        "Borough": "Staten Island",
+        "Borough": "STATEN-ISLAND",
         "Neighborhood": "South Shore"
     },
     {
@@ -4639,7 +4639,7 @@ const zipBoroughNeiborhood=[
         "ZipCode": 10306,
         "counts": 5,
         "ACRES": 1289.694,
-        "Borough": "Staten Island",
+        "Borough": "STATEN-ISLAND",
         "Neighborhood": "South Shore"
     },
     {
@@ -4647,7 +4647,7 @@ const zipBoroughNeiborhood=[
         "ZipCode": 10307,
         "counts": 4,
         "ACRES": 308.58500000000004,
-        "Borough": "Staten Island",
+        "Borough": "STATEN-ISLAND",
         "Neighborhood": "South Shore"
     },
     {
@@ -4655,7 +4655,7 @@ const zipBoroughNeiborhood=[
         "ZipCode": 10308,
         "counts": 7,
         "ACRES": 440.774,
-        "Borough": "Staten Island",
+        "Borough": "STATEN-ISLAND",
         "Neighborhood": "South Shore"
     },
     {
@@ -4663,7 +4663,7 @@ const zipBoroughNeiborhood=[
         "ZipCode": 10309,
         "counts": 13,
         "ACRES": 889.883,
-        "Borough": "Staten Island",
+        "Borough": "STATEN-ISLAND",
         "Neighborhood": "South Shore"
     },
     {
@@ -4671,7 +4671,7 @@ const zipBoroughNeiborhood=[
         "ZipCode": 10309,
         "counts": 2,
         "ACRES": 637.365,
-        "Borough": "Staten Island",
+        "Borough": "STATEN-ISLAND",
         "Neighborhood": "South Shore"
     },
     {
@@ -4679,7 +4679,7 @@ const zipBoroughNeiborhood=[
         "ZipCode": 10310,
         "counts": 9,
         "ACRES": 37.992,
-        "Borough": "Staten Island",
+        "Borough": "STATEN-ISLAND",
         "Neighborhood": "Port Richmond"
     },
     {
@@ -4687,7 +4687,7 @@ const zipBoroughNeiborhood=[
         "ZipCode": 10310,
         "counts": 2,
         "ACRES": 276.723,
-        "Borough": "Staten Island",
+        "Borough": "STATEN-ISLAND",
         "Neighborhood": "Port Richmond"
     },
     {
@@ -4695,7 +4695,7 @@ const zipBoroughNeiborhood=[
         "ZipCode": 10312,
         "counts": 25,
         "ACRES": 1367.707,
-        "Borough": "Staten Island",
+        "Borough": "STATEN-ISLAND",
         "Neighborhood": "South Shore"
     },
     {
@@ -4703,7 +4703,7 @@ const zipBoroughNeiborhood=[
         "ZipCode": 10312,
         "counts": 4,
         "ACRES": 938.63,
-        "Borough": "Staten Island",
+        "Borough": "STATEN-ISLAND",
         "Neighborhood": "South Shore"
     },
     {
@@ -4711,7 +4711,7 @@ const zipBoroughNeiborhood=[
         "ZipCode": 10314,
         "counts": 22,
         "ACRES": 1080.509,
-        "Borough": "Staten Island",
+        "Borough": "STATEN-ISLAND",
         "Neighborhood": "Mid-Island"
     },
     {
@@ -4719,7 +4719,7 @@ const zipBoroughNeiborhood=[
         "ZipCode": 10314,
         "counts": 6,
         "ACRES": 2302.612,
-        "Borough": "Staten Island",
+        "Borough": "STATEN-ISLAND",
         "Neighborhood": "Mid-Island"
     },
     {
@@ -6373,7 +6373,7 @@ const zipBoroughNeiborhood=[
 ]
 
 // console.log("hihi: ", button_chart_value)
-// const button_chart=["All","Manhattan","Staten Island","Bronx","Queens","Brooklyn"];
+// const button_chart=["All","Manhattan","STATEN-ISLAND","Bronx","Queens","Brooklyn"];
 const zipBorough=[[],
     [10026,
         10027,
@@ -6566,7 +6566,7 @@ const DogBourough=[{
     "park_count":439,
     "park_acre":6584
 }, {
-    "Borough": "Staten Island",
+    "Borough": "STATEN-ISLAND",
     "dog": 15999,
     "people": 166490,
     "park_count":183,
@@ -6608,10 +6608,10 @@ var Tooltipfixed = d3.select("#tool-fixed")
     .style("border-width", "0.5px")
     .style("border-radius", "5px");
 Tooltipfixed.html(
-    "<h1>NYC</h1> <table style='table-layout: fixed;width: 350px; margin:auto; text-align: left;'>" +
+    "<h1 style='text-align: center;'>ALL</h1> <table style='table-layout: fixed;width: 550px; margin:auto;margin-top:-30px'>" +
     "<tr>" +
-    "<th><p>population<br>dog<br>park count<br>park acre</th></p>" +
-    "<th><p>3182736<img src='img/human.svg' id='icon_human' style='height:20px'><br>208999<img src='img/dog.svg' id='icon_dog' style='height:20px'><br>2046<img src='img/park.svg' id='icon_park' style='height:20px'><br>1059<img src='img/park.svg' id='icon_park' style='height:20px'></p></th></tr>"+
+    "<th style='text-align: right;'><p>population<br>dog counts<br>park count<br>park acre</th></p>" +
+    "<th style='text-align: left; padding-left: 5px'><p>3182736<img src='img/human.svg' id='icon_human' style='height:15px'><br>208999<img src='img/dog.svg' id='icon_dog' style='height:15px'><br>2046<img src='img/park.svg' id='icon_park' style='height:15px'><br>1059<img src='img/park.svg' id='icon_park' style='height:15px'></p></th></tr>"+
     // "<th><img src='img/dog.svg' id='icon_dog' style='height:20px'><br><br><br><img src='img/park.svg' id='icon_park2' style='height:20px'></th>" +
     "</table>"
 
@@ -6633,64 +6633,22 @@ function displayDogValue() {
             //
             // )
             Tooltipfixed.html(
-    "<h1>"+button_chart_value_human_dog_pop+"</h1> <table style='table-layout: fixed;width: 350px; margin:auto; text-align: left;'>" +
+    "<h1 style='text-align: center;'>"+button_chart_value_human_dog_pop+"</h1> " +
+                "<table style='table-layout: fixed;width: 550px; margin:auto; margin-top:-30px'>" +
     "<tr>" +
-    "<th><p>population<br>dog<br>park count<br>park acre</th></p>" +
-    "<th><p>" +DogBourough[i].people + "<img src='img/human.svg' id='icon_human' style='height:20px'><br>" +DogBourough[i].dog +"<img src='img/dog.svg' id='icon_dog' style='height:20px'>"+
-    "<br>" +DogBourough[i].park_count+"<img src='img/park.svg' id='icon_park' style='height:20px'><br>"+ DogBourough[i].park_acre + "<img src='img/park.svg' id='icon_park' style='height:20px'></p></th></table>" )
+    "<th style='text-align: right;'><p>population<br>dog counts<br>park count<br>park acre</th></p>" +
+    "<th style='text-align: left; padding-left: 5px'><p>" +DogBourough[i].people + "<img src='img/human.svg' id='icon_human' style='height:15px'><br>" +DogBourough[i].dog +"<img src='img/dog.svg' id='icon_dog' style='height:15px'>"+
+    "<br>" +DogBourough[i].park_count+"<img src='img/park.svg' id='icon_park' style='height:15px'><br>"+ DogBourough[i].park_acre + "<img src='img/park.svg' id='icon_park' style='height:15px'></p></th></table>" )
         }
     }
 }
-function displayZip(i) {
-    console.log("hi")
-    d3.selectAll("#map path")
-        .style("opacity", function(d) {
-            // d3.select(this)
-                for (let z=0;z<zipBorough[i].length;z++) {
-                    if (d.ZipCode = zipBorough[i][z]) {
-                        console.log(d.ZipCode)
-
-                        return 1
-                    } else {
-                        return 0.3
-                    }
-                }
-            }
-        )
-}
-    //
-    // world.style("opacity", function zipInBorough(d) {
-    //
-    //         // for (let i = 0; i < button_chart.length; i++) {
-    //         //     if (button_chart[i].checked){
-    //         //         button_chart_value_human_dog_pop = button_chart[i].value;
-    //                 for (let z=0;z<zipBorough[i].length;z++){
-    //         if(d.ZipCode==zipBorough[i][z]){
-    //             return 1
-    //         }else{
-    //             return 0.3
-    //         }
-    //         // }
-    //         // }
-    //         }
-    //     }
-    //
-    // )
-
-// html(
-//     "<h1>"+button_chart_value_human_dog_pop+"</h1> <table style='table-layout: fixed;width: 350px; margin:auto; text-align: left;'>" +
-//     "<tr>" +
-//     "<th><p>population<br>dog<br>park count<br>park acre</th></p>" +
-//     "<th><p>" +DogBourough[i].people + "<br>" +DogBourough[i].dog+
-//     "<br>" +DogBourough[i].park_count +
-//     "<br>"  + DogBourough[i].park_acre + "</p></th>"+
-//     "<th><img src='img/dog.svg' id='icon_dog' style='width:30px'><br><img src='img/human.svg' id='icon_human' style='width:30px'><br><img src='img/park.svg' id='icon_park' style='width:30px'><br><img src='img/park.svg' id='icon_park2' style='width:30px'></th></table>"
-//
-// )
-// getting the button value and update all the charts
-
-
-
+function displayZip(num) {
+    // console.log(DogBourough[num].Borough)
+    d3.selectAll("path").style('fill', '#a6a6a6')
+    d3.selectAll('.'+DogBourough[num].Borough).style("fill", function(){
+        d3.select(this)
+        return "#ffffff"});
+    }
 
 
 d3.json("data/nyc-zip-code-tabulation-areas-polygons.geojson", function(json) {
@@ -6722,12 +6680,7 @@ d3.json("data/nyc-zip-code-tabulation-areas-polygons.geojson", function(json) {
         .attr("class", "tooltip")
         // .style("background-color", "white")
         .style("color", "white");
-    // .style("border", "solid")
-    // .style("border-width", "5px");
 
-        // .transition() // line 13 and 14 will be explain in detail in next lesson
-        // .duration(3000)
-        // .attr("transform","scale(2)")
 
     // Three function that change the tooltip when user hover / move / leave a cell
     var mouseover = function(d) {
@@ -6738,19 +6691,18 @@ d3.json("data/nyc-zip-code-tabulation-areas-polygons.geojson", function(json) {
                     if(zipBoroughNeiborhood[m].ZipCode == obj.postalCode){
                         TooltipDiv
                             .html(
-                               "<h1>"+humanDog[i].counts+"<img src='img/dog.svg' style='width:75px'></h1>" +
-                                "<table style='table-layout: fixed;width: 350px; height:150px;margin:auto;margin-top:-45px;'>" +
+                               "<h1 style='text-align: center;'>"+humanDog[i].counts+"<img src='img/dog.svg' style='width:55px'></h1>" +
+                                "<table style='table-layout: fixed;width: 550px; height:130px;margin:auto;margin-top:-45px;'>" +
                                 "<tr style='font-size: 12px; line-height: 30px; letter-spacing: 1px;'>" +
-                                "<th><p>bourough<br>neighborhood<br>zipcode</p></th>" + "<th><p>" +zipBoroughNeiborhood[m].Borough + "<br>"+ zipBoroughNeiborhood[m].Neighborhood +"<br>"+ humanDog[i].ZipCode+"</p></th></tr><tr>" +
+                                "<th style='text-align: right;'><p>bourough<br>neighborhood<br>zipcode</p></th>" + "<th style='text-align: left; padding-left: 5px'><p>" +zipBoroughNeiborhood[m].Borough + "<br>"+ zipBoroughNeiborhood[m].Neighborhood +"<br>"+ humanDog[i].ZipCode+"</p></th></tr><tr>" +
                                 // "<th><p>neighborhood</p></th>" + "<th><p>"+ humanDog[i].neighborhood + "</p></th></tr><tr>" +
 
                                 // "<th><p>zipcode</p></th>" + "<th><p>"+ humanDog[i].ZipCode + "</p></th></tr><tr>" +
-                                "<th><p>household<br>park count<br>park acre</p></th>" + "<th><p>"+ humanDog[i]["# Household Size | Households, 2021 [Estimated]"] + "<img src='img/human.svg' style='height:25px'><br>"+ zipBoroughNeiborhood[m].counts + "<br>"+Math.round(zipBoroughNeiborhood[m].ACRES)+"<img src='img/park.svg' style='height:25px'></p></th>" +
+                                "<th style='text-align: right;'><p>household<br>park count<br>park acre</p></th>" + "<th style='text-align: left; padding-left: 5px'><p>"+ humanDog[i]["# Household Size | Households, 2021 [Estimated]"] + "<img src='img/human.svg' style='height:15px'><br>"+ zipBoroughNeiborhood[m].counts + "<br>"+Math.round(zipBoroughNeiborhood[m].ACRES)+"<img src='img/park.svg' style='height:15px'></p></th>" +
                                 // "<th><img src='img/human.svg' style='width:45px'><br><img src='img/park.svg' style='width:45px'></th>" +
-                                "</tr></table>"
-
-                                // "<th><p>park count</p></th>" + "<th><p>"+ humanDog[i].park_count + "</p></th><th><img src='img/park.svg' id='icon_park' style='width:45px'></th></tr><tr>" +
-                                // "<th><p>park acre</p></th>" + "<th><p>"+ humanDog[i].park_acre + "</p></th><th><img src='img/park.svg' id='icon_park2' style='width:45px'></th></tr></table>"
+                                "</tr></table>"+
+                                "<svg height=\"800\" width=\"800\" style='position: absolute;margin-top: -200px'>\n" +
+                                "            <circle cx=\"275\" cy=\"115\" r=\"110\" stroke=\"white\" fill='none' stroke-dasharray='3' stroke-width=\"6\" /></svg>"
 
                             );
                     }
@@ -6761,8 +6713,6 @@ d3.json("data/nyc-zip-code-tabulation-areas-polygons.geojson", function(json) {
                 console.log('error')
             }
         }
-
-
         TooltipDiv
             .transition()
             .duration(50)
@@ -6784,7 +6734,6 @@ d3.json("data/nyc-zip-code-tabulation-areas-polygons.geojson", function(json) {
     };
 
     var mouseleave = function(d) {
-        // d3.selectAll('circle').style('opacity', '0.5');
 
         Tooltip
             .transition()
@@ -6795,11 +6744,6 @@ d3.json("data/nyc-zip-code-tabulation-areas-polygons.geojson", function(json) {
             .duration(50)
             .style("opacity", 0);
 
-        // mapCircle
-        //     .style("opacity", 0);
-
-        // var svg = d3.select("#tooltip2");
-        // svg.selectAll("*").remove();
         d3.select(this)
             // .style("stroke", "none")
             .transition()
@@ -6826,18 +6770,31 @@ d3.json("data/nyc-zip-code-tabulation-areas-polygons.geojson", function(json) {
         .enter()
         .append("path")
         .attr("d", land)
-        .style("fill", "#ffffff")
+
+        .attr("class", function(d) {
+            return d.properties.borough
+        })
+
+        .style("fill", "#a6a6a6")
         // .attr('fill', 'url(#svgGradient)')
-        .       style("stroke-weight",0.1)
+        .style("stroke-weight",0.1)
         .style('stroke', '#000000')
         // .style('skroke', gradient)
         .style("opacity", 0.3)
+        // .style("opacity", function(d) {
+        //     // d3.select(this)
+        //     for (let z=0;z<zipBorough[num].length;z++) {
+        //         if (d.ZipCode = zipBorough[num][z]) {
+        //             console.log(d.ZipCode)
+        //             return 0.8
+        //         } else {
+        //             return 0.3
+        //         }
+        //     }
+        // })
         .on("mouseover", mouseover)
         // .on("mousemove", mousemove)
-        .on("mouseleave", mouseleave)
-    ;
-
-
+        .on("mouseleave", mouseleave);
 
     // projection.fitExtent([[116.2202,40.0239], [116.1214,40.1159]]);
 
