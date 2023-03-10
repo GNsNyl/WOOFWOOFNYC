@@ -31,7 +31,7 @@
 	<div class="row">
 		<div class="col-sm-9"></div>
 		<div class="col-sm-1"> <a href="https://kuomaje.cargo.site/Technology" target="_blank"> kk </a></div>
-		<div class="col-sm-1"> <a href="index.html"> ys </a></div>
+		<div class="col-sm-1"> <a href="https://liu-yunsong.com"> ys </a></div>
 		<div class="col-sm-1"> <a href="information.html"> kk+ys </a> </div>
 	</div>
 </div>
@@ -104,12 +104,53 @@
 <!--SECTION ONE---------------------------------------------------------------------------------------------------------------------------------->
 <!--`````INTRODUCTION---------------------------------------------------------------------------------------------------------------------------->
 <div class="section">
+	<h1>Overview</h1>
+	<p class="text-col"> The project intends to infer the correlation among social and
+		spatial indicators, recognize and visualize the city’s spatial
+		and intangible organization through the dog’s perspective
+		regarding daily routine, and the socio-economic information
+		it indicates:
+		- property values,
+		- neighborhood quality
+		- distance to open space (park), the walkability of the urban
+		environment </p>
+	<p class="text-col">
+		Our project is inspired by our observation of dog walkers and their dogs on the street - a naive
+		eyeballing of the dog breeds in different neighborhoods in Cambridge and Boston. The number
+		of Goldendoodles and golden retrievers we meet on the street differs in various places. So the
+		project aims to analytically and data-scientifically parse the correlation between dogs and the
+		socio-economic aspects within each area.
+		The argument lies in the fact that raising a dog is a costly and time-consuming act that may
+		have social implications in terms of income, life-work balance, household size, neighborhood
+		quality, etc.
+		To actualize our query, we select New York City as a site of study for the following reasons:
+		● the availability of data for dogs, people, and neighborhoods
+		● the stratification and segregation of the city in terms of income, spatial quality, and
+		inhabitor portrait
+		● it is a famous city
+		Our ideal model would be to train on the portrait of the individual dog and its owner (income,
+		age, gender, marital status, occupation...) but that would be a violation of ethics of data
+		inquiry, and it’s not practical for the lack of data. Instead, we use Zipcode as a common feature
+		in all our data collection and proceed with our analysis with that.
+	</p>
+</div>
+
+<div class="section">
 	<h1>Time Series</h1>
-	<p class="text-col"> Based on the initial data analysis, we have found Manhattan, Brooklyn, and Queens have the
-		most registered dogs. However, the Bronx and Staten Island have significantly fewer registered
-		dogs. By comparing the registered dog counts with population, we have found that although
-		there are significantly fewer registered dogs in the Bronx, there are only 6% population
-		differences compared to Manhattan (Bronx 1,471,160; Manhattan 1,664,727). </p>
+	<p class="text-col"> Based on the time series plot on the
+		left:
+		● the number of dog registrations
+		stays relatively stationary with a slightly
+		growing trend before the year 2020;
+		● there is seasonal fluctuation
+		within each year. The number grows till
+		September and starts to fall since then;
+		● after March 2020 (the pandemic
+		lockdown), the number grows far more
+		rapidly than before. People started to
+		work from home and look for comfort to
+		get through the social silo created by
+		COVID-19.</p>
 
 	<div class="container" data-toggle="buttons" onchange="displayRadioValue()">
 		<label><input class="option-input radio" type="radio" name="borough" value="All" checked>All</label>
@@ -134,7 +175,16 @@
 		most registered dogs. However, the Bronx and Staten Island have significantly fewer registered
 		dogs. By comparing the registered dog counts with population, we have found that although
 		there are significantly fewer registered dogs in the Bronx, there are only 6% population
-		differences compared to Manhattan (Bronx 1,471,160; Manhattan 1,664,727). </p>
+		differences compared to Manhattan (Bronx 1,471,160; Manhattan 1,664,727).</p>
+	<p class="text-col">By looking at the map, again, we have found the population of the zip code region is not
+		directly correlated with the counts of registered dogs, in other words, the higher population in
+		the region does not imply more dogs.
+		● For instance, the Brooklyn area is more populated, but there are fewer registered dogs.
+		This result is not counter-intuitive since the zoning and land use differ, and so do other
+		socio-economic factors, which we will unpack later.
+		● There are more registered dogs in the Manhattan region.
+		● Especially the neighborhood close to Central Park.
+		● In addition, people here pay more for rent and have shorter commutes.</p>
 
 	<div class="container" data-toggle="buttons" onchange="displayRadioValue_packing()">
 		<label><input class="option-input radio" type="radio" name="borough" value="All" checked>All</label>
@@ -156,11 +206,8 @@
 <div style="height:100vh">
 	<div class="section">
 		<h1>Mapping</h1>
-		<p class="text-col"> Based on the initial data analysis, we have found Manhattan, Brooklyn, and Queens have the
-			most registered dogs. However, the Bronx and Staten Island have significantly fewer registered
-			dogs. By comparing the registered dog counts with population, we have found that although
-			there are significantly fewer registered dogs in the Bronx, there are only 6% population
-			differences compared to Manhattan (Bronx 1,471,160; Manhattan 1,664,727). </p>
+		<p class="text-col"> From feature importance of Decision Tree, Gradient Boosting, we see several features that are
+			highly relevant to the dog counts in each Zip Code: Park Acres, Park Count, Population, Dog Number</p>
 
 	</div>
 	<div class="section" >
@@ -181,6 +228,7 @@
 <!--						<circle id="circle" style="color: white;position:absolute"></circle>-->
 		</div>
 	</div>
+
 </div>
 
 
@@ -188,12 +236,70 @@
 <!--`````MAPS---------------------------------------------------------------------------------------------------------------------------------->
 
 <div class="section">
-	<h1>Comparison</h1>
-	<p class="text-col"> Based on the initial data analysis, we have found Manhattan, Brooklyn, and Queens have the
-		most registered dogs. However, the Bronx and Staten Island have significantly fewer registered
-		dogs. By comparing the registered dog counts with population, we have found that although
-		there are significantly fewer registered dogs in the Bronx, there are only 6% population
-		differences compared to Manhattan (Bronx 1,471,160; Manhattan 1,664,727). </p>
+	<h1>Data Science</h1>
+	<p class="text-col">
+
+		● Park Acres
+		○ Park areas within each Zip Code are correlated with the dog counts. The correlation
+		is in manifold ways;
+		○ Dogs love parks, running around or pacing, and meeting other dogs;
+		○ Park, as an urban planning element, is highly associated with zoning and residence,
+		meaning there are more parks in or near a residential area and fewer in industrial
+		areas;
+
+		● 30-40 min Commute time
+		○ As mentioned earlier, the area around Manhattan spends less time commuting to
+		work. On average, workers from Manhattan spend around 32 min to work. In
+		contrast, workers from other boroughs spend more than 40 min to work. Based on
+		our earlier analysis, registered dog counts are significantly higher in the area around
+		the Manhattan region. Since job density in Manhattan (Robert M.
+		3
+		) is much higher,
+		and in addition, commute time is closely associated with the location. Therefore, the
+		feature '30-40 min’ becomes a top predictor for our model.
+		○ Commute Time (Bronx: 44.899 min; Brooklyn: 42.459 min; Manhattan: 31.981
+		min; Queens: 44.606 min; Staten Island: 44.567 min)
+		○ (see 3_dog_EDA.ipynb; 0.6 mean travel to work to work + borough )
+		● Median Income
+		○ Having a dog will bring extra expenses such as the dog's food cost, recurring
+		medical expenses, license and so on. In addition, there are also unexpected costs,
+		for instance, property damages or emergency medical care. The yearly cost of
+		having a dog may range from hundreds to thousands (Heather M.). A dog will
+		require the owner to be in a better economic condition than non-dog owners. In
+		other words, there are associations between median income and ownership of
+		dogs. On average, the median yearly income of workers from Manhattan is around
+		$107,962. It is significantly higher than the ones from other boroughs. The median
+		income of the Bronx is about $45,692, which is the lowest of all the boroughs. As
+		mentioned earlier, the Bronx has a significantly lower number of registered dogs
+		than the region's population. Considering the financial ability based on income may
+		explain the reason. Therefore, ‘median income’ becomes a top predictor for our
+		model.
+		○ Median Income (Bronx: $45692.480; Brooklyn: $65375.919; Manhattan:
+		$107961.907; Queens: $74595.250; Staten Island: $81192.833)
+		○ (see 3_dog_EDA.ipynb; 0.5 income + borough)
+		○ (reference: Heather M. ‘How Much Does It Cost to Have a Dog?’
+		https://www.aspcapetinsurance.com/resources/dog-ownership-cost/ )</p>
+	<p class="text-col"> (please refer to the notebook for hyperparameter setups)
+		● response variable: dog counts within each zip code
+		● predicting variables: within the range of Data Overview contents with different in each
+		notebook
+		Model With All Features (4.1_dog_model_with_all_features.ipynb)
+		1. set our baseline model as Linear Regression without penalization;
+		2. add lasso regularization to get a sense of trivial features (which will be fed in 4.2);
+		3. cross-validation to determine the best degree for Polynomial Regression, the
+		best_degree we get is 1;
+		4. grid search cross validation to get the optimal max_depth for decision tree regressor,
+		plot feature importance for EDA;
+		5. bagging regressor with the decision tree from the previous step as base estimator
+		6. gradient boosting with an initial setup
+		7. grid search cross-validation with gradient boosting for optimal:
+	a. n_estimators
+	b. learning rate
+	c. subsample
+	d. max_depth
+	<br>
+		Results: we nest the optimal Gradient Boost Regressor within Ada Boost Regressor and get a better result of 0.769 test accuracy
+	</p>
 </div>
 
 <!--SECTION FIVE------------------------------------------------------------------------------------------------------------------------------->
