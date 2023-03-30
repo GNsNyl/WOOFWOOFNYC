@@ -349,17 +349,27 @@
 		contents in each notebook
 
 		<br><br><span class="bolded">To create our model, we followed these steps:</span>
+		<br>To create our model, we started with a linear regression baseline model and added
+		lasso regularization to remove trivial features. Using cross-validation, we determined that
+		a degree of 1 was optimal for polynomial regression. Grid search was used to find the best
+		max_depth for a decision tree regressor and plot feature importance. We then used a bagging
+		regressor and gradient boosting, optimizing the latter with grid search. Our best model nested
+		an optimal gradient boost regressor within an Ada Boost regressor, achieving a test accuracy of 0.769.
 
-		<br>1. We started with a baseline model using linear regression without penalization.
-		<br>2. We then added lasso regularization to identify trivial features, which we removed in the next step.
-		<br>3. To determine the best degree for polynomial regression, we used cross-validation and found that a degree of 1 was optimal.
-		<br>4. We used grid search cross-validation to find the optimal max_depth for a decision tree regressor and plotted feature importance for further EDA.
-		<br>5. We used bagging regressor with the decision tree from the previous step as the base estimator.
-		<br>6. We tried gradient boosting with an initial setup.
-		<br>7. We used grid search cross-validation with gradient boosting to find the optimal values for n_estimators, learning rate, subsample, and max_depth.
-		<br>8. Our best model nested the optimal Gradient Boost Regressor within Ada Boost Regressor, which achieved a test accuracy of 0.769.
+<!--		<br>1. We started with a baseline model using linear regression without penalization.-->
+<!--		<br>2. We then added lasso regularization to identify trivial features, which we removed in the next step.-->
+<!--		<br>3. To determine the best degree for polynomial regression, we used cross-validation and found that a degree of 1 was optimal.-->
+<!--		<br>4. We used grid search cross-validation to find the optimal max_depth for a decision tree regressor and plotted feature importance for further EDA.-->
+<!--		<br>5. We used bagging regressor with the decision tree from the previous step as the base estimator.-->
+<!--		<br>6. We tried gradient boosting with an initial setup.-->
+<!--		<br>7. We used grid search cross-validation with gradient boosting to find the optimal values for n_estimators, learning rate, subsample, and max_depth.-->
+<!--		<br>8. Our best model nested the optimal Gradient Boost Regressor within Ada Boost Regressor, which achieved a test accuracy of 0.769.-->
+<!--	-->
+
 	</h4>
 </div>
+
+<br><br><br><br><br><br><br><br><br><br>
 
 
 <!-- embedding JS libraries -->
