@@ -6644,7 +6644,7 @@ function displayDogValue() {
 }
 function displayZip(num) {
     // console.log(DogBourough[num].Borough)
-    d3.selectAll("path").style('fill', '#a6a6a6')
+    d3.selectAll(".mapline>path").style('fill', '#a6a6a6')
     d3.selectAll('.'+DogBourough[num].Borough).style("fill", function(){
         d3.select(this)
         return "#ffffff"});
@@ -6765,14 +6765,14 @@ d3.json("data/nyc-zip-code-tabulation-areas-polygons.geojson", function(json) {
     land = d3.geo.path()
         .projection(projection);
 
-    world = svgNyc.selectAll("path")
+    world = svgNyc.selectAll(".mapline> path")
         .data(json.features)
         .enter()
         .append("path")
         .attr("d", land)
 
         .attr("class", function(d) {
-            return d.properties.borough
+            return d.properties.borough + ' mapline'
         })
 
         .style("fill", "#a6a6a6")
