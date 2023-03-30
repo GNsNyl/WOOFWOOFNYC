@@ -12,6 +12,9 @@ body{ background-color: #000000;}
 
 /*PARAGRAPH______________________________________________________________________________________________________________*/
 .section{ padding-left: 100px; padding-right: 100px;}
+.sectionStatement{ padding-left: 300px; padding-right: 300px;}
+.sectionImg{ padding-left: 200px; padding-right: 200px;}
+
 .paragraph, .paragraph-desc{ padding-top: 100px; padding-bottom: 100px;}
 .paragraph-desc{text-align: end;}
 p{ color:white; font-size: 15px; line-height: 30px; letter-spacing: 1px; font-family: 'Roboto Light', sans-serif;}
@@ -24,11 +27,26 @@ label, .tick{ color:white; font-size: 12px; line-height: 30px; letter-spacing: 1
 .axis text{ fill: white; color:white; font-size: 12px; line-height: 30px; letter-spacing: 1px; font-family: 'Roboto Light', sans-serif;}
 
 
+
 /*TEXT______________________________________________________________________________________________________________*/
 .content{ padding:50px 300px 50px 300px;}
 h1{font-size: 30px; color: white; font-family: 'Roboto', sans-serif;
     letter-spacing: 1px; text-transform: uppercase; padding-top: 25px; padding-bottom: 25px;}
+h2{font-size: 30px; color: white; font-family: 'Roboto Light', sans-serif;
+    letter-spacing: 1px; padding-top: 25px; padding-bottom: 25px;}
+h3{font-size: 50px; color: white; font-family: 'Roboto Black', sans-serif; text-align: center;
+    letter-spacing: 1px; padding-top: 50px; padding-bottom: 50px;}
+h4{font-size: 20px; color: white; font-family: 'Roboto Light', sans-serif;
+    letter-spacing: 1px; padding-top: 25px; padding-bottom: 15px;}
+.desc{font-size: 15px; color: white; font-family: 'Roboto Light', sans-serif;
+    letter-spacing: 1px; text-align: center}
+
+
 .text-col { column-width: 33vw;}
+.bolded { color: white; font-family: 'Roboto Black' }
+.underline{ color: white; text-decoration-line: underline; text-decoration-thickness: 1.5px;
+    text-decoration-color: #ffffff; }
+.center{ text-align: center; }
 
 /*BORDER______________________________________________________________________________________________________________*/
 hr.solid {border-top: 0.5px solid rgb(255, 255, 255);}
@@ -41,7 +59,8 @@ a:active { text-decoration: none;}
 a:hover { color: #ffffff; text-decoration: underline; cursor:pointer;}
 
 /*IMG______________________________________________________________________________________________________________*/
-img{object-fit: scale-down;}
+/*img{object-fit: scale-down;}*/
+img { max-width: 100%; height: auto;}
 
 /*INDEX______________________________________________________________________________________________________________*/
 .hover figure img { -webkit-filter: grayscale(100%) blur(3px); filter: grayscale(100%) blur(3px); -webkit-transition: .3s ease-in-out; transition: .3s ease-in-out;}

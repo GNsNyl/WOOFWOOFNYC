@@ -29,10 +29,9 @@
 <!--HEADER-->
 <div class="header section">
 	<div class="row">
-		<div class="col-sm-9"></div>
+		<div class="col-sm-10"></div>
 		<div class="col-sm-1"> <a href="https://kuomaje.cargo.site/Technology" target="_blank"> kk </a></div>
 		<div class="col-sm-1"> <a href="https://liu-yunsong.com"> ys </a></div>
-		<div class="col-sm-1"> <a href="information.html"> kk+ys </a> </div>
 	</div>
 </div>
 
@@ -103,54 +102,58 @@
 
 <!--SECTION ONE---------------------------------------------------------------------------------------------------------------------------------->
 <!--`````INTRODUCTION---------------------------------------------------------------------------------------------------------------------------->
-<div class="section">
-	<h1>Overview</h1>
-	<p class="text-col"> The project intends to infer the correlation among social and
-		spatial indicators, recognize and visualize the city’s spatial
-		and intangible organization through the dog’s perspective
-		regarding daily routine, and the socio-economic information
-		it indicates:
-		- property values,
-		- neighborhood quality
-		- distance to open space (park), the walkability of the urban
-		environment </p>
-	<p class="text-col">
-		Our project is inspired by our observation of dog walkers and their dogs on the street - a naive
-		eyeballing of the dog breeds in different neighborhoods in Cambridge and Boston. The number
-		of Goldendoodles and golden retrievers we meet on the street differs in various places. So the
-		project aims to analytically and data-scientifically parse the correlation between dogs and the
-		socio-economic aspects within each area.
-		The argument lies in the fact that raising a dog is a costly and time-consuming act that may
-		have social implications in terms of income, life-work balance, household size, neighborhood
-		quality, etc.
-		To actualize our query, we select New York City as a site of study for the following reasons:
-		● the availability of data for dogs, people, and neighborhoods
-		● the stratification and segregation of the city in terms of income, spatial quality, and
-		inhabitor portrait
-		● it is a famous city
-		Our ideal model would be to train on the portrait of the individual dog and its owner (income,
-		age, gender, marital status, occupation...) but that would be a violation of ethics of data
-		inquiry, and it’s not practical for the lack of data. Instead, we use Zipcode as a common feature
-		in all our data collection and proceed with our analysis with that.
-	</p>
+<div class="sectionStatement">
+	<h2>The project aims to analyze the relationship between <span class="bolded">social</span> and
+		<span class="bolded">spatial</span> factors and provide insight into the intangible
+		and physical organization of the city
+		through the perspective of dogs and their daily routines. It will explore socio-economic
+		indicators such as <span class="underline"> property values, neighborhood quality, proximity to open spaces
+			like parks, and walkability </span> of the urban environment to visualize the city's spatial
+		characteristics.
+	</h2>
 </div>
 
+
+<div class="sectionImg">
+	<br><br><br><br><br><img src="data/dog3.png"><br><br><br><br><br>
+</div>
+
+<br><br><br><br><br>
+
+<div class="sectionStatement">
+	<h3>it all started from here...</h3>
+	<h4>
+		Our project is motivated by the prevalence of certain dog breeds in various neighborhoods in Cambridge and Boston,
+		and we seek to explore the correlation between dogs and socioeconomic factors such as <span class="bolded">income, work-life balance,
+		household size, and neighborhood quality</span>. While we would ideally like to examine individual dog and owner characteristics,
+		ethical data inquiry practices prevent us from doing so, and data limitations make it impractical. Instead, we will use zip
+		code as a common feature in our data collection and analysis. To conduct our investigation, we have chosen New York City as
+		our research site due to the availability of comprehensive data on dogs, people, and neighborhoods, as well as its socioeconomic
+		stratification and spatial segregation. Additionally, New York City is renowned as a bustling metropolis, making it an ideal
+		location to investigate the relationship between dogs and urban living.
+
+	</h4>
+</div>
+
+<div class="sectionImg">
+	<br><br><br><br><br><img src="data/dogWalk.png"><br><br><br><br><br>
+</div>
+
+<br><br><br><br><br>
+
+<div class="sectionStatement">
+	<h3>about the time series...</h3>
+	<h4>
+		The time series plot reveals several patterns in the data on dog registrations.
+		Firstly, the number of registrations remains relatively stable with a slight upward
+		trend prior to the year 2020. Secondly, there are seasonal fluctuations within each year,
+		with registration numbers increasing until September before declining.
+		Finally, after the COVID-19 pandemic lockdown began in March 2020, registration
+		numbers began to grow at a much faster rate than before. This might be due to social
+		isolation and seeking comfort and companionship during the pandemic.
+	</h4>
+</div>
 <div class="section">
-	<h1>Time Series</h1>
-	<p class="text-col"> Based on the time series plot on the
-		left:
-		● the number of dog registrations
-		stays relatively stationary with a slightly
-		growing trend before the year 2020;
-		● there is seasonal fluctuation
-		within each year. The number grows till
-		September and starts to fall since then;
-		● after March 2020 (the pandemic
-		lockdown), the number grows far more
-		rapidly than before. People started to
-		work from home and look for comfort to
-		get through the social silo created by
-		COVID-19.</p>
 
 	<div class="container" data-toggle="buttons" onchange="displayRadioValue()">
 		<label><input class="option-input radio" type="radio" name="borough" value="All" checked>All</label>
@@ -166,26 +169,25 @@
 <div style="height:50vh">
 	<div id="viz1_1" style="height: 100%; width:100%;"></div>
 </div>
+<br><br><br><br><br>
 
 <!--SECTION TWO---------------------------------------------------------------------------------------------------------------------------------->
 <!--`````PANDEMIC DOG BOOM----------------------------------------------------------------------------------------------------------------------->
-<div class="section">
-	<h1>Dog Population</h1>
-	<p class="text-col"> Based on the initial data analysis, we have found Manhattan, Brooklyn, and Queens have the
-		most registered dogs. However, the Bronx and Staten Island have significantly fewer registered
-		dogs. By comparing the registered dog counts with population, we have found that although
-		there are significantly fewer registered dogs in the Bronx, there are only 6% population
-		differences compared to Manhattan (Bronx 1,471,160; Manhattan 1,664,727).</p>
-	<p class="text-col">By looking at the map, again, we have found the population of the zip code region is not
-		directly correlated with the counts of registered dogs, in other words, the higher population in
-		the region does not imply more dogs.
-		● For instance, the Brooklyn area is more populated, but there are fewer registered dogs.
-		This result is not counter-intuitive since the zoning and land use differ, and so do other
-		socio-economic factors, which we will unpack later.
-		● There are more registered dogs in the Manhattan region.
-		● Especially the neighborhood close to Central Park.
-		● In addition, people here pay more for rent and have shorter commutes.</p>
+<div class="sectionStatement">
+	<h3>what happened to dog population...</h3>
+	<h4>
+		Upon conducting an initial analysis of the data, we have discovered that Manhattan,
+		Brooklyn, and Queens have the highest number of registered dogs, whereas the Bronx
+		and Staten Island have notably fewer. Upon further investigation, we compared the number
+		of registered dogs to the population in each borough and found that while
+		the Bronx has a significantly lower number of registered dogs, it only has a
+		6% population difference compared to Manhattan (with a population of 1,471,160 in
+		the Bronx and 1,664,727 in Manhattan).
+	</h4>
+</div>
 
+
+<div class="section">
 	<div class="container" data-toggle="buttons" onchange="displayRadioValue_packing()">
 		<label><input class="option-input radio" type="radio" name="borough" value="All" checked>All</label>
 		<label><input class="option-input radio" type="radio" name="borough" value="Manhattan">Manhattan</label>
@@ -199,16 +201,74 @@
 <div style="height:90vh">
 	<div id="viz2_1" style="height: 100%; width:100%;"></div>
 </div>
+<br><br><br><br><br>
+
+<div class="sectionStatement">
+	<h3>what are the correlations...</h3>
+	<h4>To visualize the correlation between our datasets and dog information,
+		we have categorized our datasets and compared them. Our correlation matrix
+		has enabled us to quickly understand our datasets and identify the main factors
+		that influence the dog population. We have found that factors such as <span class="bolded">park availability,
+		commute time, income, and household size</span> have the strongest correlation with the number of registered dogs.
+
+		<br><br>
+		Our datasets are organized into the following categories:
+		<br>- Age, race, sex, population, income, poverty
+		<br>- Citizenship, language
+		<br>- Occupation, worker status, time to go to work, commute time, college
+		<br>- Housing, vehicle, household, park
+	</h4>
+</div>
+
+<br><br><br><br><br>
+
+<div class="sectionImg">
+	<div class="row">
+		<div class="col-sm-3 desc"> <img src="data/correlation/correlation_col_age.png"> Age </div>
+		<div class="col-sm-3 desc"> <img src="data/correlation/correlation_col_race.png"> Race </div>
+		<div class="col-sm-3 desc"> <img src="data/correlation/correlation_col_income.png"> Income </div>
+		<div class="col-sm-3 desc"> <img src="data/correlation/correlation_col_poverty.png"> Poverty </div>
+	</div>
+	<div class="row">
+		<div class="col-sm-3 desc"> <img src="data/correlation/correlation_col_occupation.png"> Occupation </div>
+		<div class="col-sm-3 desc"> <img src="data/correlation/correlation_col_worker.png"> Worker </div>
+		<div class="col-sm-3 desc"> <img src="data/correlation/correlation_col_commuteTime.png"> Commute Time</div>
+		<div class="col-sm-3 desc"> <img src="data/correlation/correlation_col_college.png"> College </div>
+	</div>
+	<div class="row">
+		<div class="col-sm-3 desc"> <img src="data/correlation/correlation_col_housing.png"> Housing</div>
+		<div class="col-sm-3 desc"> <img src="data/correlation/correlation_col_household.png"> Household </div>
+		<div class="col-sm-3 desc"> <img src="data/correlation/correlation_col_vehicle.png"> Vehicle</div>
+		<div class="col-sm-3 desc"> <img src="data/correlation/correlation_col_park.png"> Park </div>
+	</div>
+</div>
+
+<br><br><br><br><br>
 
 
 <!--SECTION THREE------------------------------------------------------------------------------------------------------------------------------>
 <!--`````COVID--------------------------------------------------------------------------------------------------------------------------------->
+<div class="sectionStatement">
+	<h3>looking at the map...</h3>
+	<h4>
+		Upon examining the map, we have discovered that there is not a direct correlation
+		between the population of a given zip code region and the number of registered dogs
+		in that area. For instance, although <span class="underline"> Brooklyn is more densely populated than some other
+		areas, it has fewer registered dogs</span>. This finding is not unexpected, given that zoning
+		and land use, as well as various socioeconomic factors, can differ across neighborhoods.
+		We plan to further explore these factors in our analysis. On the other hand, we have
+		found that the Manhattan region has a higher number of registered dogs, particularly
+		in neighborhoods near Central Park. It is worth noting that these areas tend to have
+		higher rent prices and shorter commute times.
+
+		From feature importance of Decision Tree, Gradient Boosting, we see several features that are
+		highly relevant to the dog counts in each Zip Code: Park Acres, Park Count, Population, Dog Number
+	</h4>
+</div>
+
+
 <div style="height:100vh">
 	<div class="section">
-		<h1>Mapping</h1>
-		<p class="text-col"> From feature importance of Decision Tree, Gradient Boosting, we see several features that are
-			highly relevant to the dog counts in each Zip Code: Park Acres, Park Count, Population, Dog Number</p>
-
 	</div>
 	<div class="section" >
 		<div class="container" data-toggle="buttons" onchange="displayDogValue()">
@@ -235,97 +295,71 @@
 <!--SECTION FOUR------------------------------------------------------------------------------------------------------------------------------->
 <!--`````MAPS---------------------------------------------------------------------------------------------------------------------------------->
 
-<div class="section">
-	<h1>Data Science</h1>
-	<p class="text-col">
+<div class="sectionStatement">
+	<h3>what are the factors...</h3>
+	<h4>
+		We have identified several factors that are strongly correlated with the number of registered dogs
+		in different neighborhoods of New York City. These factors include park acres, commute time, and median income.
 
-		● Park Acres
-		○ Park areas within each Zip Code are correlated with the dog counts. The correlation
-		is in manifold ways;
-		○ Dogs love parks, running around or pacing, and meeting other dogs;
-		○ Park, as an urban planning element, is highly associated with zoning and residence,
-		meaning there are more parks in or near a residential area and fewer in industrial
-		areas;
+		<br><br><span class="bolded">Park Acres:</span>
+		Parks are popular destinations for dog owners and their pets. As a result, areas with more parkland
+		tend to have higher numbers of registered dogs. Additionally, parks are often located near residential
+		areas and less frequently found in industrial areas.
 
-		● 30-40 min Commute time
-		○ As mentioned earlier, the area around Manhattan spends less time commuting to
-		work. On average, workers from Manhattan spend around 32 min to work. In
-		contrast, workers from other boroughs spend more than 40 min to work. Based on
-		our earlier analysis, registered dog counts are significantly higher in the area around
-		the Manhattan region. Since job density in Manhattan (Robert M.
-		3
-		) is much higher,
-		and in addition, commute time is closely associated with the location. Therefore, the
-		feature '30-40 min’ becomes a top predictor for our model.
-		○ Commute Time (Bronx: 44.899 min; Brooklyn: 42.459 min; Manhattan: 31.981
-		min; Queens: 44.606 min; Staten Island: 44.567 min)
-		○ (see 3_dog_EDA.ipynb; 0.6 mean travel to work to work + borough )
-		● Median Income
-		○ Having a dog will bring extra expenses such as the dog's food cost, recurring
-		medical expenses, license and so on. In addition, there are also unexpected costs,
-		for instance, property damages or emergency medical care. The yearly cost of
-		having a dog may range from hundreds to thousands (Heather M.). A dog will
-		require the owner to be in a better economic condition than non-dog owners. In
-		other words, there are associations between median income and ownership of
-		dogs. On average, the median yearly income of workers from Manhattan is around
-		$107,962. It is significantly higher than the ones from other boroughs. The median
-		income of the Bronx is about $45,692, which is the lowest of all the boroughs. As
-		mentioned earlier, the Bronx has a significantly lower number of registered dogs
-		than the region's population. Considering the financial ability based on income may
-		explain the reason. Therefore, ‘median income’ becomes a top predictor for our
-		model.
-		○ Median Income (Bronx: $45692.480; Brooklyn: $65375.919; Manhattan:
-		$107961.907; Queens: $74595.250; Staten Island: $81192.833)
-		○ (see 3_dog_EDA.ipynb; 0.5 income + borough)
-		○ (reference: Heather M. ‘How Much Does It Cost to Have a Dog?’
-		https://www.aspcapetinsurance.com/resources/dog-ownership-cost/ )</p>
-	<p class="text-col"> (please refer to the notebook for hyperparameter setups)
-		● response variable: dog counts within each zip code
-		● predicting variables: within the range of Data Overview contents with different in each
-		notebook
-		Model With All Features (4.1_dog_model_with_all_features.ipynb)
-		1. set our baseline model as Linear Regression without penalization;
-		2. add lasso regularization to get a sense of trivial features (which will be fed in 4.2);
-		3. cross-validation to determine the best degree for Polynomial Regression, the
-		best_degree we get is 1;
-		4. grid search cross validation to get the optimal max_depth for decision tree regressor,
-		plot feature importance for EDA;
-		5. bagging regressor with the decision tree from the previous step as base estimator
-		6. gradient boosting with an initial setup
-		7. grid search cross-validation with gradient boosting for optimal:
-	a. n_estimators
-	b. learning rate
-	c. subsample
-	d. max_depth
-	<br>
-		Results: we nest the optimal Gradient Boost Regressor within Ada Boost Regressor and get a better result of 0.769 test accuracy
-	</p>
+		<br><br><span class="bolded">Commute Time:</span>
+		Workers in the Manhattan region have shorter commutes compared to workers in other boroughs, with an
+		average commute time of 32 minutes. Our analysis has shown that the number of registered dogs is
+		significantly higher in the area around Manhattan. This is likely due to the higher density of jobs
+		in Manhattan, as well as its association with higher socioeconomic status.
+
+		<br><br><span class="bolded">Median Income:</span>
+		Owning a dog can be expensive, with costs ranging from food and medical expenses to emergency care and
+		property damage. Therefore, it is not surprising that there is a strong correlation between median income
+		and dog ownership. On average, workers in Manhattan have a median yearly income of $107,962, significantly
+		higher than workers in other boroughs. The Bronx has the lowest median income of all the boroughs, which may
+		explain why it has significantly fewer registered dogs than its population would suggest.
+	</h4>
 </div>
 
-<!--SECTION FIVE------------------------------------------------------------------------------------------------------------------------------->
-<!--`````COST OF DOG--------------------------------------------------------------------------------------------------------------------------->
 
-<div class="section">
-	<h1>Expenses</h1>
-	<p class="text-col"> Based on the initial data analysis, we have found Manhattan, Brooklyn, and Queens have the
-		most registered dogs. However, the Bronx and Staten Island have significantly fewer registered
-		dogs. By comparing the registered dog counts with population, we have found that although
-		there are significantly fewer registered dogs in the Bronx, there are only 6% population
-		differences compared to Manhattan (Bronx 1,471,160; Manhattan 1,664,727). </p>
+<div class="sectionImg">
+	<br><br><br><br><br>
+	<a href="../html/map_counts.html" target="_blank"> <img src="data/map/map_counts2.png"> </a>
+	<br><br><div class="desc"> Dog Population </div><br>
 </div>
 
-<!--SECTION SIX-------------------------------------------------------------------------------------------------------------------------------->
-<!--`````REFLECTION---------------------------------------------------------------------------------------------------------------------------->
-
-<div class="section">
-	<h1>Reflection</h1>
-	<p class="text-col"> Based on the initial data analysis, we have found Manhattan, Brooklyn, and Queens have the
-		most registered dogs. However, the Bronx and Staten Island have significantly fewer registered
-		dogs. By comparing the registered dog counts with population, we have found that although
-		there are significantly fewer registered dogs in the Bronx, there are only 6% population
-		differences compared to Manhattan (Bronx 1,471,160; Manhattan 1,664,727). </p>
+<div class="sectionImg">
+	<div class="row">
+		<div class="col-sm-4 desc"> <a href="../html/map_commute.html" target="_blank"><img src="data/map/map_commute2.png"></a> Commute Time </div>
+		<div class="col-sm-4 desc"> <a href="../html/map_pop.html" target="_blank"><img src="data/map/map_pop2.png"></a> Population </div>
+		<div class="col-sm-4 desc"> <a href="../html/map_rent.html" target="_blank"><img src="data/map/map_rent2.png"></a> Rent </div>
+	</div>
 </div>
 
+<br><br><br><div class="desc"> Click on the image to learn more </div><br>
+
+<br><br><br><br><br>
+
+
+<div class="sectionStatement">
+	<h3>Data Science...</h3>
+	<h4>
+		Our project aims to predict the number of dogs in each zip code based on various socio-economic factors.
+		The response variable is the dog count, while the predicting variables are based on the data overview
+		contents in each notebook
+
+		<br><br><span class="bolded">To create our model, we followed these steps:</span>
+
+		<br>1. We started with a baseline model using linear regression without penalization.
+		<br>2. We then added lasso regularization to identify trivial features, which we removed in the next step.
+		<br>3. To determine the best degree for polynomial regression, we used cross-validation and found that a degree of 1 was optimal.
+		<br>4. We used grid search cross-validation to find the optimal max_depth for a decision tree regressor and plotted feature importance for further EDA.
+		<br>5. We used bagging regressor with the decision tree from the previous step as the base estimator.
+		<br>6. We tried gradient boosting with an initial setup.
+		<br>7. We used grid search cross-validation with gradient boosting to find the optimal values for n_estimators, learning rate, subsample, and max_depth.
+		<br>8. Our best model nested the optimal Gradient Boost Regressor within Ada Boost Regressor, which achieved a test accuracy of 0.769.
+	</h4>
+</div>
 
 
 <!-- embedding JS libraries -->
@@ -343,12 +377,9 @@
 
 
 <!-- landing -->
-<script src="js/jquery-3.2.1.js"></script>
-<!--https://code.jquery.com/jquery-3.2.1.js-->
+<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
 <script src='js/three.min.js'></script>
-<!--<script src='https://assets.codepen.io/127738/simplex-noise.js'></script>-->
-<script src='js/simplex-noise.js'></script>
-
+<script src='https://assets.codepen.io/127738/simplex-noise.js'></script>
 <script src='js/gsap.min.js'></script>
 <script src='js/d32.min.js' crossorigin="anonymous"></script>
 <!--<script src='https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js'></script>-->
