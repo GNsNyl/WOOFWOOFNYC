@@ -19,4 +19,5 @@ stratification and spatial segregation. Additionally, New York City is renowned 
 location to investigate the relationship between dogs and urban living.
 
 
+Launch the site at: https://gnsnyl.github.io/WOOFWOOFNYC/
 
