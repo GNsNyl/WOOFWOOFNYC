@@ -2,6 +2,7 @@
 
 
 CS109a Intro to Data Science Final Project
+WOOFWOOFNYC / Visualizing Dogs in New York
 
 
 The project aims to analyze the relationship between social and spatial factors and provide insight into the 
